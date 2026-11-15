@@ -5,10 +5,10 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(title "Compute Module 4 IO Board - Top Level")
-		(rev "1")
-		(company "© 2020-2022 Raspberry Pi Ltd (formerly Raspberry Pi (Trading) Ltd.)")
-		(comment 1 "www.raspberrypi.com")
+		(title "CM4 Mini PC - Master System Architecture")
+		(rev "1.0")
+		(company "Julio - ECE Hardware Portfolio")
+		(comment 1 "Custom 4-Layer High-Speed Carrier Board for Raspberry Pi CM4")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
@@ -108,84 +108,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Connectors\n-------\nFAN\nBattery"
-		(exclude_from_sim no)
-		(at 88.9 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c30a4be-5679-499f-8c5b-5f3024f9d6cf")
-	)
-	(text "Connector\n------\nPCIe x1"
-		(exclude_from_sim no)
-		(at 204.47 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f3deced-880d-4075-a81b-95c62da5b94d")
-	)
-	(text "Connectors\n-------\nDC Barrel Jack\n4 pin power"
-		(exclude_from_sim no)
-		(at 193.04 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3cfcbcc7-4f45-46ab-82a8-c414c7972161")
-	)
-	(text "Connectors\n-------\nDual USB\nmicroUSB"
-		(exclude_from_sim no)
-		(at 83.82 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4dc6088c-89a5-4db7-b3ae-db4b6396ad49")
-	)
-	(text "Connectors\n-------\nEthernet\nSDCARD\n40way RPI\nJumpers"
-		(exclude_from_sim no)
-		(at 146.05 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a501555e-bbc7-4b58-ad89-28a0cd3dd6d0")
-	)
-	(text "Connectors\n-------\nHDMI 0\nHDMI 1\nCSI 0\nCSI 1\nDSI 0\nDSI 1"
-		(exclude_from_sim no)
-		(at 144.78 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db83d0af-e085-4050-8496-fa2ebdecbd62")
-	)
-	(junction
-		(at 140.97 110.49)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "87c78429-be2b-40ed-8d3b-56cb9666a56f")
-	)
-	(junction
-		(at 137.16 106.68)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "99030c03-63b4-49ba-b5ab-4d56974f7963")
-	)
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 
@@ -1207,244 +1137,263 @@
 			)
 		)
 	)
+	
+	
+	
+	
+	
+
 	(sheet
-		(at 132.08 116.84)
-		(size 36.83 31.75)
+		(at 26.0 45.0)
+		(size 72.0 45.0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0)
-		)
-		(uuid "00000000-0000-0000-0000-00005cff706a")
-		(property "Sheetname" "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
-			(at 132.08 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "CM4_GPIO.kicad_sch"
-			(at 132.08 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-
-
-
-
-
-
-
-
-
-
-
-	)
-	(sheet
-		(at 132.08 39.37)
-		(size 36.83 62.23)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0)
-		)
-		(uuid "00000000-0000-0000-0000-00005cff70b1")
-		(property "Sheetname" "CM4_HighSpeed"
-			(at 132.08 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "CM4_HighSpeed.kicad_sch"
-			(at 132.08 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	)
-	(sheet
-		(at 190.5 104.14)
-		(size 27.94 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
+			(color 0 100 180 1)
 		)
 		(fill
 			(color 255 255 255 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005d31f999")
-		(property "Sheetname" "PSUs"
-			(at 190.5 103.5045 0)
+		(property "Sheetname" "Power_Supply"
+			(at 28.0 43.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
+					bold
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "PSUs.kicad_sch"
-			(at 190.5 125.73 0)
+			(at 28.0 92.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.2 1.2)
+					italic
 				)
 				(justify left top)
 			)
 		)
-
-
 	)
 	(sheet
-		(at 81.28 39.878)
-		(size 24.13 28.702)
+		(at 26.0 98.0)
+		(size 72.0 45.0)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
-			(color 132 0 132 1)
-		)
-		(fill
-			(color 255 255 255 0)
-		)
-		(uuid "00000000-0000-0000-0000-00005e072e02")
-		(property "Sheetname" "USB2-HUB"
-			(at 81.28 39.2425 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USB2-HUB.kicad_sch"
-			(at 81.026 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-
-
-
-
-
-
-	)
-	(sheet
-		(at 81.28 104.14)
-		(size 24.13 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 132 0 132 1)
+			(color 0 100 180 1)
 		)
 		(fill
 			(color 255 255 255 0)
 		)
 		(uuid "00000000-0000-0000-0000-00005e328d89")
-		(property "Sheetname" "RTC , Wakeup, FAN"
-			(at 81.28 103.5045 0)
+		(property "Sheetname" "Real_Time_Clock"
+			(at 28.0 96.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.6 1.6)
+					bold
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "RTC.kicad_sch"
-			(at 81.28 124.9685 0)
+			(at 28.0 145.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.2 1.2)
+					italic
 				)
 				(justify left top)
 			)
 		)
-
-
-
-
-
-
 	)
+	(sheet
+		(at 108.0 45.0)
+		(size 80.0 45.0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 120 70 1)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "00000000-0000-0000-0000-00005cff70b1")
+		(property "Sheetname" "CM4_HighSpeed_Video"
+			(at 110.0 43.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+					bold
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_HighSpeed.kicad_sch"
+			(at 110.0 92.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2 1.2)
+					italic
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
+		(at 108.0 98.0)
+		(size 80.0 45.0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 0 120 70 1)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "00000000-0000-0000-0000-00005cff706a")
+		(property "Sheetname" "CM4_Core_IO_Storage"
+			(at 110.0 96.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+					bold
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CM4_GPIO.kicad_sch"
+			(at 110.0 145.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2 1.2)
+					italic
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
+		(at 198.0 45.0)
+		(size 80.0 45.0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 130 50 150 1)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "00000000-0000-0000-0000-00005e072e02")
+		(property "Sheetname" "USB_Hub_Subsystem"
+			(at 200.0 43.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.6 1.6)
+					bold
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB2-HUB.kicad_sch"
+			(at 200.0 92.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2 1.2)
+					italic
+				)
+				(justify left top)
+			)
+		)
+	)
+
+	(text "CM4 MINI-DESKTOP PC — MASTER SYSTEM ARCHITECTURE"
+		(at 26.0 28.0 0)
+		(effects (font (size 2.54 2.54) bold) (justify left bottom))
+		(uuid "11111111-0001-0001-0001-000000000001")
+	)
+	(text "4-Layer Controlled-Impedance Carrier Board for Raspberry Pi Compute Module 4 | Julio — ECE Hardware Portfolio"
+		(at 26.0 34.0 0)
+		(effects (font (size 1.5 1.5) italic) (justify left bottom))
+		(uuid "11111111-0001-0001-0001-000000000002")
+	)
+
+	(text "• Primary Power In: 5V / 3A DC via USB-C Receptacle\n• Buck Regulator: 3.3V / 2A (Silergy SY8089AAAC)\n• Protection: P-FET Reverse Polarity & TVS ESD Diode\n• High-Capacitance Decoupling Power Planes"
+		(at 30.0 52.0 0)
+		(effects (font (size 1.27 1.27)) (justify left top))
+		(uuid "11111111-0001-0001-0001-000000000003")
+	)
+
+	(text "• RTC Controller: NXP PCF85063AT (I2C Interface)\n• Timekeeping Crystal: 32.768 kHz Quartz Oscillator\n• Battery Backup: CR1220 Coin Cell + BAT54C Diode\n• Preserves System Wall-Clock Time When Powered Off"
+		(at 30.0 105.0 0)
+		(effects (font (size 1.27 1.27)) (justify left top))
+		(uuid "11111111-0001-0001-0001-000000000004")
+	)
+
+	(text "• Mezzanine 2: Hirose DF40C-100DS-0.4V (Pins 101-200)\n• Video Output: Standard Full-Size HDMI 0 Receptacle\n• Signal Integrity: 100-Ohm Differential TMDS Pairs\n• Protection: Low-Capacitance TVS Clamping Diodes\n• Level Shifter: 3.3V to 5V DDC I2C Translator"
+		(at 112.0 52.0 0)
+		(effects (font (size 1.27 1.27)) (justify left top))
+		(uuid "11111111-0001-0001-0001-000000000005")
+	)
+
+	(text "• Mezzanine 1: Hirose DF40C-100DS-0.4V (Pins 1-100)\n• Network Interface: 10/100/1000 Gigabit RJ45 MagJack\n• System Storage: MicroSD Socket (CM4 Lite OS Boot)\n• Power Management: SD_PWR_ON High-Side Switch\n• Visual Diagnostics: PWR (Red) & ACT (Green) LEDs"
+		(at 112.0 105.0 0)
+		(effects (font (size 1.27 1.27)) (justify left top))
+		(uuid "11111111-0001-0001-0001-000000000006")
+	)
+
+	(text "• Hub IC: Microchip USB2514B 4-Port Controller\n• Downstream Ports: 4x USB 2.0 Type-A (Dual Stacked)\n• Clock Reference: 24.000 MHz Crystal Oscillator\n• Port Protection: AP2191 High-Side Power Switches\n• Interconnect: 90-Ohm Differential USB Pairs"
+		(at 202.0 52.0 0)
+		(effects (font (size 1.27 1.27)) (justify left top))
+		(uuid "11111111-0001-0001-0001-000000000007")
+	)
+
+	(text "HARDWARE SPECS & HIGHLIGHTS\n-----------------------------------------------------\n• Form Factor: Credit-Card (~85 mm x 56 mm)\n• PCB Target: 4-Layer (JLC04161H Stackup)\n• Layers: Sig / Solid GND / Power / Sig\n• Target OS: Raspberry Pi OS / RetroPie\n• Schematics Status: 100% Synchronized (KiCad 10)"
+		(at 198.0 98.0 0)
+		(effects (font (size 1.3 1.3)) (justify left top))
+		(uuid "11111111-0001-0001-0001-000000000008")
+	)
+
 )

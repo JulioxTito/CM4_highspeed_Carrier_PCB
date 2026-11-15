@@ -1,24 +1,24 @@
-ERC report (2026-11-14T20:22:04, Encoding UTF8)
+ERC report (2026-11-14T20:41:07, Encoding UTF8)
 Report includes: Errors
 
 ***** Sheet /
 
-***** Sheet /USB2-HUB/
-[pin_not_driven]: Input pin not driven by any Output pins
+***** Sheet /Power_Supply/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
-    @(151.13 mm, 96.52 mm): Symbol U6 Pin 13 [OCS_N1, Input, Line]
+    @(123.825 mm, 130.302 mm): Symbol U16 Pin 2 [VIN, Power input, Line]
 
-***** Sheet /RTC , Wakeup, FAN/
+***** Sheet /Real_Time_Clock/
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
     @(101.60 mm, 50.80 mm): Symbol U8 Pin 6 [SCL, Input, Line]
 
-***** Sheet /CM4_HighSpeed/
+***** Sheet /CM4_HighSpeed_Video/
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(264.16 mm, 95.25 mm): Symbol J10 Pin 18 [+5V, Power input, Line]
 
-***** Sheet /CM4_GPIO ( Ethernet, GPIO, SDCARD)/
+***** Sheet /CM4_Core_IO_Storage/
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(39.116 mm, 115.57 mm): Symbol Module1 Pin 78 [GPIO_VREF(1.8v/3.3v_Input), Power input, Line]
@@ -31,10 +31,10 @@ Report includes: Errors
     @(39.116 mm, 128.27 mm): Symbol Module1 Pin 88 [+1.8v_(Output), Power output, Line]
     @(39.116 mm, 130.81 mm): Symbol Module1 Pin 90 [+1.8v_(Output), Power output, Line]
 
-***** Sheet /PSUs/
-[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+***** Sheet /USB_Hub_Subsystem/
+[pin_not_driven]: Input pin not driven by any Output pins
     ; error
-    @(123.825 mm, 130.302 mm): Symbol U16 Pin 2 [VIN, Power input, Line]
+    @(151.13 mm, 96.52 mm): Symbol U6 Pin 13 [OCS_N1, Input, Line]
 
  ** ERC messages: 7  Errors 7  Warnings 0
 
