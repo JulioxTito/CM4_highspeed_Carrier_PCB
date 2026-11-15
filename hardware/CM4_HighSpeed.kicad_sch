@@ -11,6 +11,17 @@
 		(comment 1 "www.raspberrypi.com")
 	)
 	(lib_symbols
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin power_out line (at 0 0 90) (length 0) hide (name "pwr" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(property "Reference" "#FLG" (at 0 1.905 0) (effects (font (size 1.27 1.27)) hide))
+			(property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+			(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+			(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+			(symbol "PWR_FLAG_0_1"
+				(polyline (pts (xy 0 0) (xy 0 1.27) (xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27) (xy 0 1.27)) (stroke (width 0) (type default)) (fill (type outline)))
+			)
+		)
 		(symbol "CM4IO:ComputeModule4-CM4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10636,7 +10647,7 @@
 		)
 		(uuid "c027fa6b-8e6d-4e11-8804-979831dae8d5")
 	)
-	(label "ID_SC"
+	(global_label "ID_SC"
 		(at 40.64 184.912 180)
 		(effects
 			(font
@@ -10796,7 +10807,7 @@
 		)
 		(uuid "dbc9643b-8b89-4ff3-80f6-063535be3753")
 	)
-	(label "ID_SD"
+	(global_label "ID_SD"
 		(at 40.64 187.452 180)
 		(effects
 			(font
@@ -10996,7 +11007,7 @@
 		)
 		(uuid "ff579cc0-821d-40ca-8f3d-8708c2d87acb")
 	)
-	(hierarchical_label "SCL0"
+	(global_label "SCL0"
 		(shape input)
 		(at 143.51 143.51 180)
 		(effects
@@ -11007,7 +11018,7 @@
 		)
 		(uuid "168a0226-3f44-46ec-a72a-15290137bd66")
 	)
-	(hierarchical_label "PCIE_RX_P"
+	(global_label "PCIE_RX_P"
 		(shape input)
 		(at 35.56 44.45 180)
 		(effects
@@ -11018,7 +11029,7 @@
 		)
 		(uuid "17c7b03d-e4b9-4587-b2ce-0ee7a9d30575")
 	)
-	(hierarchical_label "TV_OUT"
+	(global_label "TV_OUT"
 		(shape output)
 		(at 109.22 39.37 0)
 		(effects
@@ -11029,7 +11040,7 @@
 		)
 		(uuid "18406746-0f9d-4d88-9ef2-8423e08576f0")
 	)
-	(hierarchical_label "PCIE_CLK_N"
+	(global_label "PCIE_CLK_N"
 		(shape output)
 		(at 35.56 39.37 180)
 		(effects
@@ -11040,7 +11051,7 @@
 		)
 		(uuid "2009ab3a-f4bf-4c63-a0fe-9d170c762787")
 	)
-	(hierarchical_label "PCIE_nRST"
+	(global_label "PCIE_nRST"
 		(shape output)
 		(at 109.22 36.83 0)
 		(effects
@@ -11051,7 +11062,7 @@
 		)
 		(uuid "20ac7a70-5cb9-4418-b061-8e4ee8d36b79")
 	)
-	(hierarchical_label "ID_SC"
+	(global_label "ID_SC"
 		(shape input)
 		(at 35.052 184.912 180)
 		(effects
@@ -11062,7 +11073,7 @@
 		)
 		(uuid "2926e945-d9e3-4a4e-9b51-aad244dc04f4")
 	)
-	(hierarchical_label "PCIE_RX_N"
+	(global_label "PCIE_RX_N"
 		(shape input)
 		(at 35.56 46.99 180)
 		(effects
@@ -11073,7 +11084,7 @@
 		)
 		(uuid "381ea437-8589-413a-8d00-c27a465a3773")
 	)
-	(hierarchical_label "ID_SD"
+	(global_label "ID_SD"
 		(shape input)
 		(at 35.052 187.452 180)
 		(effects
@@ -11084,7 +11095,7 @@
 		)
 		(uuid "432045b0-7589-468b-8659-999ac30c51fa")
 	)
-	(hierarchical_label "PCIE_CLK_nREQ"
+	(global_label "PCIE_CLK_nREQ"
 		(shape input)
 		(at 35.56 26.67 180)
 		(effects
@@ -11095,7 +11106,7 @@
 		)
 		(uuid "4d290f63-844a-4f7b-8aec-c610c29b1e2f")
 	)
-	(hierarchical_label "CAM_GPIO"
+	(global_label "CAM_GPIO"
 		(shape input)
 		(at 143.51 68.58 180)
 		(effects
@@ -11106,7 +11117,7 @@
 		)
 		(uuid "54562a16-6662-4d1b-9b50-45ed0ae36481")
 	)
-	(hierarchical_label "GPIO_VREF"
+	(global_label "GPIO_VREF"
 		(shape input)
 		(at 46.99 170.561 180)
 		(effects
@@ -11117,7 +11128,7 @@
 		)
 		(uuid "6f581e98-caac-4a3a-b0ed-76aab462e56a")
 	)
-	(hierarchical_label "USBOTG_ID"
+	(global_label "USBOTG_ID"
 		(shape input)
 		(at 109.22 26.67 0)
 		(effects
@@ -11128,7 +11139,7 @@
 		)
 		(uuid "73b08644-febb-4c1e-9b8f-826cf4cd7348")
 	)
-	(hierarchical_label "SDA0"
+	(global_label "SDA0"
 		(shape input)
 		(at 143.51 146.05 180)
 		(effects
@@ -11139,7 +11150,7 @@
 		)
 		(uuid "a1bbbcb7-3394-4d47-a7e2-c5aca5915b62")
 	)
-	(hierarchical_label "+3.3v"
+	(global_label "+3.3v"
 		(shape input)
 		(at 143.51 148.59 180)
 		(effects
@@ -11150,7 +11161,7 @@
 		)
 		(uuid "ccefc75b-fd16-4e82-963f-281710a98051")
 	)
-	(hierarchical_label "USB2_P"
+	(global_label "USB2_P"
 		(shape bidirectional)
 		(at 109.22 31.75 0)
 		(effects
@@ -11161,7 +11172,7 @@
 		)
 		(uuid "d0823f78-79d3-470b-87e6-694e750395bc")
 	)
-	(hierarchical_label "PCIE_TX_N"
+	(global_label "PCIE_TX_N"
 		(shape output)
 		(at 35.56 54.61 180)
 		(effects
@@ -11172,7 +11183,7 @@
 		)
 		(uuid "dc50af72-15b3-4fb5-bf25-289e8b8f51f6")
 	)
-	(hierarchical_label "+5v"
+	(global_label "+5v"
 		(shape input)
 		(at 113.03 176.53 180)
 		(effects
@@ -11183,7 +11194,7 @@
 		)
 		(uuid "dfdaa22a-0489-48da-8a56-737e4c4366e1")
 	)
-	(hierarchical_label "PCIE_TX_P"
+	(global_label "PCIE_TX_P"
 		(shape output)
 		(at 35.56 52.07 180)
 		(effects
@@ -11194,7 +11205,7 @@
 		)
 		(uuid "e12ec3e8-0d5b-47b1-abb9-9b31a4bb451e")
 	)
-	(hierarchical_label "USB2_N"
+	(global_label "USB2_N"
 		(shape bidirectional)
 		(at 109.22 29.21 0)
 		(effects
@@ -11205,7 +11216,7 @@
 		)
 		(uuid "f47ba0cc-ecae-4aef-a30d-acee22ce59db")
 	)
-	(hierarchical_label "PCIE_CLK_P"
+	(global_label "PCIE_CLK_P"
 		(shape output)
 		(at 35.56 36.83 180)
 		(effects
@@ -13808,7 +13819,7 @@
 	(symbol
 		(lib_id "CM4IO:ComputeModule4-CM4")
 		(at -67.31 87.63 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14525,7 +14536,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
 		(at 46.482 184.912 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14664,4 +14675,8 @@
 			(uuid "94d07718-2fcc-40a0-ad0e-c4bb67bc804a")
 		)
 	)
+	(no_connect (at 41.91 26.67) (uuid "677100e7-aba4-4ccb-aaac-18b377835c7d"))
+	(no_connect (at 41.91 44.45) (uuid "6bc2cae0-2e35-495f-b058-0d39722375c4"))
+	(no_connect (at 41.91 46.99) (uuid "66fa75ff-f27c-4b83-9d49-ec8a2583ff6d"))
+	(no_connect (at 102.87 26.67) (uuid "559cacb4-6cdf-4d02-9247-f210a8d80416"))
 )

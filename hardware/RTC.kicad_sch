@@ -11,6 +11,17 @@
 		(comment 1 "www.raspberrypi.com")
 	)
 	(lib_symbols
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin power_out line (at 0 0 90) (length 0) hide (name "pwr" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(property "Reference" "#FLG" (at 0 1.905 0) (effects (font (size 1.27 1.27)) hide))
+			(property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+			(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+			(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+			(symbol "PWR_FLAG_0_1"
+				(polyline (pts (xy 0 0) (xy 0 1.27) (xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27) (xy 0 1.27)) (stroke (width 0) (type default)) (fill (type outline)))
+			)
+		)
 		(symbol "CM4IO:74LVC1G07_copy"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2832,7 +2843,7 @@
 		)
 		(uuid "f364b99f-4502-4cba-a96d-4ed35ad108b5")
 	)
-	(hierarchical_label "+5v"
+	(global_label "+5v"
 		(shape input)
 		(at 161.29 49.53 180)
 		(effects
@@ -2843,7 +2854,7 @@
 		)
 		(uuid "567a04d6-5dce-4e5f-9e8e-f34010ecea5b")
 	)
-	(hierarchical_label "+3.3v"
+	(global_label "+3.3v"
 		(shape input)
 		(at 102.87 125.73 180)
 		(effects
@@ -2854,7 +2865,7 @@
 		)
 		(uuid "57121f1d-c971-4830-b974-00f7d706f0c9")
 	)
-	(hierarchical_label "+12v"
+	(global_label "+12v"
 		(shape input)
 		(at 160.02 119.38 180)
 		(effects
@@ -2865,7 +2876,7 @@
 		)
 		(uuid "ea8efd53-9e19-4e37-86f5-e6c0c681f735")
 	)
-	(hierarchical_label "SCL"
+	(global_label "SCL"
 		(shape input)
 		(at 109.22 50.8 0)
 		(effects
@@ -2876,7 +2887,7 @@
 		)
 		(uuid "ec13b96e-bc69-4de2-80ef-a515cc44afb5")
 	)
-	(hierarchical_label "SDA"
+	(global_label "SDA"
 		(shape input)
 		(at 109.22 53.34 0)
 		(effects
@@ -2887,7 +2898,7 @@
 		)
 		(uuid "f11a78b7-152e-46cf-81d1-bc8194db05a9")
 	)
-	(hierarchical_label "GLOBAL_EN"
+	(global_label "GLOBAL_EN"
 		(shape output)
 		(at 252.73 62.23 0)
 		(effects
@@ -5281,5 +5292,12 @@
 		(pin "2"
 			(uuid "3b450865-b2ef-4d25-9b34-4d42975b5e24")
 		)
+	)
+	(symbol (lib_id "power:PWR_FLAG") (at 91.44 45.72 0) (unit 1)
+		(in_bom yes) (on_board yes)
+		(uuid "b633b154-9bc4-4229-b421-86b76f3f529b")
+		(property "Reference" "#FLG04" (at 91.44 43.72 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Value" "PWR_FLAG" (at 91.44 41.72 0) (effects (font (size 1.27 1.27))))
+		(pin "1" (uuid "cdf0c177-2205-4796-b3d9-8cdf6f22283a"))
 	)
 )

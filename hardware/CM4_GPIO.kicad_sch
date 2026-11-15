@@ -15021,7 +15021,7 @@
 		)
 		(uuid "ffadf13e-d327-4e72-a129-20b1a691d829")
 	)
-	(hierarchical_label "+5v"
+	(global_label "+5v"
 		(shape input)
 		(at 114.046 115.57 0)
 		(effects
@@ -15032,7 +15032,7 @@
 		)
 		(uuid "04f09747-54bd-4ccb-936d-3baa80652154")
 	)
-	(hierarchical_label "GLOBAL_EN"
+	(global_label "GLOBAL_EN"
 		(shape input)
 		(at 116.586 143.51 0)
 		(effects
@@ -15043,7 +15043,7 @@
 		)
 		(uuid "09986a87-49c2-4491-b1b1-87dfad52ab95")
 	)
-	(hierarchical_label "ID_SC"
+	(global_label "ID_SC"
 		(shape output)
 		(at 114.046 62.23 0)
 		(effects
@@ -15054,7 +15054,7 @@
 		)
 		(uuid "0e37a1ae-bf06-4c70-ae4c-e7cee553b0b3")
 	)
-	(hierarchical_label "TV_OUT"
+	(global_label "TV_OUT"
 		(shape input)
 		(at 55.88 177.8 180)
 		(effects
@@ -15065,7 +15065,7 @@
 		)
 		(uuid "ba033dd1-a5e2-4136-b71b-d0a1cef6fc1f")
 	)
-	(hierarchical_label "SCL0"
+	(global_label "SCL0"
 		(shape output)
 		(at 25.146 118.11 180)
 		(effects
@@ -15076,7 +15076,7 @@
 		)
 		(uuid "cca964ad-d64e-4c84-a05a-4b48498db544")
 	)
-	(hierarchical_label "ID_SD"
+	(global_label "ID_SD"
 		(shape output)
 		(at 25.146 62.23 180)
 		(effects
@@ -15087,7 +15087,7 @@
 		)
 		(uuid "d1cf4093-87af-4b49-8879-3ac410551bfc")
 	)
-	(hierarchical_label "GPIO_VREF"
+	(global_label "GPIO_VREF"
 		(shape output)
 		(at 25.146 115.57 180)
 		(effects
@@ -15098,7 +15098,7 @@
 		)
 		(uuid "d3262cbf-1f75-4047-bb3d-01b21ddbafa6")
 	)
-	(hierarchical_label "SDA0"
+	(global_label "SDA0"
 		(shape output)
 		(at 25.146 120.65 180)
 		(effects
@@ -15109,7 +15109,7 @@
 		)
 		(uuid "d44cf594-638f-424d-936a-6e9ed7c314ce")
 	)
-	(hierarchical_label "CAM_GPIO"
+	(global_label "CAM_GPIO"
 		(shape output)
 		(at 116.586 140.97 0)
 		(effects
@@ -15120,7 +15120,7 @@
 		)
 		(uuid "e8c88107-4c00-44bc-b07f-5c8bcb21af78")
 	)
-	(hierarchical_label "nEXTRST"
+	(global_label "nEXTRST"
 		(shape output)
 		(at 25.146 143.51 180)
 		(effects
@@ -15131,7 +15131,7 @@
 		)
 		(uuid "ebcfdf36-110d-4f79-9de0-e4fcd76c1d6e")
 	)
-	(hierarchical_label "+3.3v"
+	(global_label "+3.3v"
 		(shape output)
 		(at 25.146 123.19 180)
 		(effects

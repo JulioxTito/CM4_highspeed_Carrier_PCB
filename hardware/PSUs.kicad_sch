@@ -10,6 +10,17 @@
 		(comment 1 "www.raspberrypi.com")
 	)
 	(lib_symbols
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin power_out line (at 0 0 90) (length 0) hide (name "pwr" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
+			(property "Reference" "#FLG" (at 0 1.905 0) (effects (font (size 1.27 1.27)) hide))
+			(property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
+			(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+			(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+			(symbol "PWR_FLAG_0_1"
+				(polyline (pts (xy 0 0) (xy 0 1.27) (xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27) (xy 0 1.27)) (stroke (width 0) (type default)) (fill (type outline)))
+			)
+		)
 		(symbol "CM4IO:AP64351"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3447,7 +3458,7 @@
 		)
 		(uuid "cb7a5af0-8d51-414d-8e4c-5f9db1141b2f")
 	)
-	(hierarchical_label "+12v"
+	(global_label "+12v"
 		(shape output)
 		(at 159.004 45.72 0)
 		(effects
@@ -3458,7 +3469,7 @@
 		)
 		(uuid "9e7f6823-c792-4b1a-9c33-e92f86382381")
 	)
-	(hierarchical_label "+5v"
+	(global_label "+5v"
 		(shape output)
 		(at 249.555 116.332 0)
 		(effects
@@ -8416,4 +8427,12 @@
 			(uuid "4bcce46c-d9ae-4ab2-a9c8-5cc8f50b0e43")
 		)
 	)
+	(symbol (lib_id "power:PWR_FLAG") (at 180.0 50.0 0) (unit 1)
+		(in_bom yes) (on_board yes)
+		(uuid "146c341f-e710-4234-88b4-9b8d6b7831db")
+		(property "Reference" "#FLG01" (at 180.0 48.0 0) (effects (font (size 1.27 1.27)) hide))
+		(property "Value" "PWR_FLAG" (at 180.0 46.0 0) (effects (font (size 1.27 1.27))))
+		(pin "1" (uuid "5c01a1a8-f8a6-4ee2-88e7-8611620d8aa2"))
+	)
+	(global_label "+5v" (shape input) (at 180.0 50.0 180) (effects (font (size 1.27 1.27))) (uuid "a213c3ab-8ca7-4911-82fe-a36b55ded75a"))
 )

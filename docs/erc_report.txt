@@ -1,7 +1,67 @@
-ERC report (2026-11-14T19:54:33, Encoding UTF8)
+ERC report (2026-11-14T19:59:39, Encoding UTF8)
 Report includes: Errors, Warnings, Exclusions
 
 ***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(81.28 mm, 110.49 mm): Hierarchical Sheet Pin '+12v'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(81.28 mm, 113.03 mm): Hierarchical Sheet Pin '+5v'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(81.28 mm, 115.57 mm): Hierarchical Sheet Pin '+3.3v'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(105.41 mm, 106.68 mm): Hierarchical Sheet Pin 'SDA'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(105.41 mm, 110.49 mm): Hierarchical Sheet Pin 'SCL'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(105.41 mm, 116.84 mm): Hierarchical Sheet Pin 'GLOBAL_EN'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(132.08 mm, 53.34 mm): Hierarchical Sheet Pin 'USB2_P'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(132.08 mm, 55.88 mm): Hierarchical Sheet Pin 'USB2_N'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(132.08 mm, 60.96 mm): Hierarchical Sheet Pin 'USBOTG_ID'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(132.08 mm, 77.47 mm): Hierarchical Sheet Pin '+5v'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(132.08 mm, 81.28 mm): Hierarchical Sheet Pin '+3.3v'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(137.16 mm, 101.60 mm): Hierarchical Sheet Pin 'SDA0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(140.97 mm, 101.60 mm): Hierarchical Sheet Pin 'SCL0'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(147.32 mm, 101.60 mm): Hierarchical Sheet Pin 'GPIO_VREF'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(151.13 mm, 101.60 mm): Hierarchical Sheet Pin 'CAM_GPIO'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(154.94 mm, 101.60 mm): Hierarchical Sheet Pin 'TV_OUT'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(158.75 mm, 101.60 mm): Hierarchical Sheet Pin 'ID_SD'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(162.56 mm, 101.60 mm): Hierarchical Sheet Pin 'ID_SC'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(218.44 mm, 111.76 mm): Hierarchical Sheet Pin '+12v'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(218.44 mm, 115.57 mm): Hierarchical Sheet Pin '+5v'
 [label_dangling]: Label not connected
     ; error
     @(35.56 mm, 26.67 mm): Hierarchical Label 'PCIE_CLK_nREQ'
@@ -25,7 +85,19 @@ Report includes: Errors, Warnings, Exclusions
     @(35.56 mm, 54.61 mm): Hierarchical Label 'PCIE_TX_N'
 [label_dangling]: Label not connected
     ; error
+    @(109.22 mm, 26.67 mm): Hierarchical Label 'USBOTG_ID'
+[label_dangling]: Label not connected
+    ; error
+    @(109.22 mm, 29.21 mm): Hierarchical Label 'USB2_N'
+[label_dangling]: Label not connected
+    ; error
+    @(109.22 mm, 31.75 mm): Hierarchical Label 'USB2_P'
+[label_dangling]: Label not connected
+    ; error
     @(109.22 mm, 36.83 mm): Hierarchical Label 'PCIE_nRST'
+[label_dangling]: Label not connected
+    ; error
+    @(109.22 mm, 39.37 mm): Hierarchical Label 'TV_OUT'
 [lib_symbol_mismatch]: Symbol 'MountingHole' doesn't match copy in library 'Mechanical'
     ; warning
     @(22.86 mm, 165.735 mm): Symbol H1 [MountingHole]
@@ -50,78 +122,6 @@ Report includes: Errors, Warnings, Exclusions
 [lib_symbol_mismatch]: Symbol 'MountingHole' doesn't match copy in library 'Mechanical'
     ; warning
     @(43.815 mm, 180.975 mm): Symbol H8 [MountingHole]
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(68.58 mm, 110.49 mm): Horizontal Wire, length 12.70 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(68.58 mm, 113.03 mm): Horizontal Wire, length 12.70 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(81.28 mm, 115.57 mm): Horizontal Wire, length 12.70 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(81.28 mm, 52.07 mm): Horizontal Wire, length 8.89 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(81.28 mm, 58.42 mm): Horizontal Wire, length 8.89 mm
-[endpoint_off_grid]: Symbol pin or wire end off connection grid
-    ; warning
-    @(105.41 mm, 47.498 mm): Horizontal Wire, length 10.414 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(105.41 mm, 47.498 mm): Horizontal Wire, length 10.414 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(119.38 mm, 77.47 mm): Horizontal Wire, length 12.70 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(132.08 mm, 81.28 mm): Horizontal Wire, length 12.70 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(121.92 mm, 137.16 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(179.07 mm, 130.81 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(168.91 mm, 135.89 mm): Horizontal Wire, length 10.16 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(168.91 mm, 48.26 mm): Horizontal Wire, length 21.59 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(168.91 mm, 50.80 mm): Horizontal Wire, length 21.59 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(168.91 mm, 55.88 mm): Horizontal Wire, length 21.59 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(168.91 mm, 58.42 mm): Horizontal Wire, length 21.59 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(168.91 mm, 62.23 mm): Horizontal Wire, length 21.59 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(168.91 mm, 64.77 mm): Horizontal Wire, length 21.59 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(168.91 mm, 69.85 mm): Horizontal Wire, length 21.59 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(168.91 mm, 73.66 mm): Horizontal Wire, length 21.59 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(218.44 mm, 62.23 mm): Horizontal Wire, length 7.62 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(218.44 mm, 62.23 mm): Horizontal Wire, length 7.62 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(218.44 mm, 111.76 mm): Horizontal Wire, length 7.62 mm
-[unconnected_wire_endpoint]: Unconnected wire endpoint
-    ; warning
-    @(218.44 mm, 115.57 mm): Horizontal Wire, length 7.62 mm
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(27.305 mm, 58.42 mm): Horizontal Wire, length 5.715 mm
@@ -140,6 +140,12 @@ Report includes: Errors, Warnings, Exclusions
 [lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
     ; warning
     @(43.18 mm, 74.93 mm): Symbol #PWR0143 [GND]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(46.99 mm, 101.60 mm): Label 'nEXTRST'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(46.99 mm, 101.60 mm): Hierarchical Label 'nEXTRST'
 [lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
     ; warning
     @(46.99 mm, 137.16 mm): Symbol #PWR07 [GND]
@@ -416,6 +422,9 @@ Report includes: Errors, Warnings, Exclusions
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
     @(101.60 mm, 60.96 mm): Horizontal Wire, length 16.51 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(160.02 mm, 119.38 mm): Hierarchical Label '+12v'
 [lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
     ; warning
     @(170.18 mm, 58.42 mm): Symbol #PWR031 [GND]
@@ -431,6 +440,12 @@ Report includes: Errors, Warnings, Exclusions
 [lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
     ; warning
     @(227.33 mm, 71.12 mm): Symbol #PWR034 [GND]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(234.95 mm, 62.23 mm): Label 'GLOBAL_EN'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(252.73 mm, 62.23 mm): Hierarchical Label 'GLOBAL_EN'
 [lib_symbol_mismatch]: Symbol 'ComputeModule4-CM4' doesn't match copy in library 'CM4IO'
     ; warning
     @(-67.31 mm, 87.63 mm): Symbol Module1 [ComputeModule4-CM4]
@@ -512,9 +527,15 @@ Report includes: Errors, Warnings, Exclusions
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(35.052 mm, 184.912 mm): Horizontal Wire, length 6.35 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(35.052 mm, 184.912 mm): Hierarchical Label 'ID_SC'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(35.052 mm, 187.452 mm): Horizontal Wire, length 6.35 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(35.052 mm, 187.452 mm): Hierarchical Label 'ID_SD'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(36.83 mm, 59.69 mm): Label 'CAM0_D0_N'
@@ -548,6 +569,12 @@ Report includes: Errors, Warnings, Exclusions
 [lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
     ; warning
     @(39.37 mm, 157.48 mm): Symbol #PWR0131 [GND]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(40.64 mm, 184.912 mm): Label 'ID_SC'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(40.64 mm, 187.452 mm): Label 'ID_SD'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(41.402 mm, 184.912 mm): Symbol J6 Pin 1 [Pin_1, Passive, Line]
@@ -947,15 +974,6 @@ Report includes: Errors, Warnings, Exclusions
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(106.68 mm, 151.13 mm): Label 'HDMI0_SDA'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(109.22 mm, 29.21 mm): Hierarchical Label 'USB2_N'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(109.22 mm, 31.75 mm): Hierarchical Label 'USB2_P'
-[isolated_pin_label]: Label connected to only one pin
-    ; warning
-    @(109.22 mm, 39.37 mm): Hierarchical Label 'TV_OUT'
 [isolated_pin_label]: Label connected to only one pin
     ; warning
     @(116.84 mm, 97.79 mm): Label 'DSI0_D0_N'
@@ -1466,15 +1484,24 @@ Report includes: Errors, Warnings, Exclusions
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(25.146 mm, 118.11 mm): Horizontal Wire, length 13.97 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(25.146 mm, 118.11 mm): Hierarchical Label 'SCL0'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(25.146 mm, 120.65 mm): Horizontal Wire, length 13.97 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(25.146 mm, 120.65 mm): Hierarchical Label 'SDA0'
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(25.146 mm, 123.19 mm): Horizontal Wire, length 13.97 mm
 [endpoint_off_grid]: Symbol pin or wire end off connection grid
     ; warning
     @(25.146 mm, 143.51 mm): Horizontal Wire, length 13.97 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(25.146 mm, 143.51 mm): Hierarchical Label 'nEXTRST'
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
     @(25.40 mm, 128.27 mm): Horizontal Wire, length 13.716 mm
@@ -1964,6 +1991,9 @@ Report includes: Errors, Warnings, Exclusions
 [unconnected_wire_endpoint]: Unconnected wire endpoint
     ; warning
     @(100.076 mm, 113.03 mm): Horizontal Wire, length 15.24 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(116.586 mm, 140.97 mm): Hierarchical Label 'CAM_GPIO'
 [lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
     ; warning
     @(116.84 mm, 25.40 mm): Symbol D2 [LED]
@@ -2740,17 +2770,35 @@ Report includes: Errors, Warnings, Exclusions
     @(240.792 mm, 126.492 mm): Symbol #PWR02 [GND]
 
 ***** Sheet /USB2-HUB/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(95.25 mm, 101.60 mm): Symbol U6 Pin 26 [RESET_N, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(115.57 mm, 73.66 mm): Symbol U6 Pin 5 [VDDA33, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(120.65 mm, 34.29 mm): Symbol J11 Pin 1 [VBUS, Power input, Line]
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
     @(151.13 mm, 96.52 mm): Symbol U6 Pin 13 [OCS_N1, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(194.31 mm, 77.47 mm): Symbol U7 Pin 1 [IN, Power input, Line]
 
 ***** Sheet /RTC , Wakeup, FAN/
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(91.44 mm, 45.72 mm): Symbol U8 Pin 8 [VDD, Power input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(101.60 mm, 50.80 mm): Symbol U8 Pin 6 [SCL, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(119.38 mm, 140.97 mm): Symbol U11 Pin 3 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(227.33 mm, 59.69 mm): Symbol U14 Pin 5 [VCC, Power input, Line]
 
 ***** Sheet /CM4_HighSpeed/
 [different_unit_net]: Pin 2 is connected to both unconnected-(Module1A-GND-Pad2) and GND
@@ -2763,13 +2811,13 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-100.33 mm, 31.75 mm): Symbol Module1 Pin 2 [GND, Power input, Line]
+[different_unit_net]: Pin 4 is connected to both unconnected-(Module1A-Ethernet_Pair1_P-Pad4) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_P
+    ; error
+    @(-100.33 mm, 34.29 mm): Symbol Module1 Pin 4 [Ethernet_Pair1_P, Passive, Line]
+    @(39.116 mm, 21.59 mm): Symbol Module1 Pin 4 [Ethernet_Pair1_P, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 34.29 mm): Symbol Module1 Pin 4 [Ethernet_Pair1_P, Passive, Line]
-[different_unit_net]: Pin 6 is connected to both unconnected-(Module1A-Ethernet_Pair1_N-Pad6) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_N
-    ; error
-    @(-100.33 mm, 36.83 mm): Symbol Module1 Pin 6 [Ethernet_Pair1_N, Passive, Line]
-    @(39.116 mm, 24.13 mm): Symbol Module1 Pin 6 [Ethernet_Pair1_N, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 36.83 mm): Symbol Module1 Pin 6 [Ethernet_Pair1_N, Passive, Line]
@@ -2789,10 +2837,6 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 44.45 mm): Symbol Module1 Pin 12 [Ethernet_Pair0_P, Passive, Line]
-[different_unit_net]: Pin 14 is connected to both unconnected-(Module1A-GND-Pad14) and GND
-    ; error
-    @(-100.33 mm, 46.99 mm): Symbol Module1 Pin 14 [GND, Power input, Line]
-    @(39.116 mm, 34.29 mm): Symbol Module1 Pin 14 [GND, Power input, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 46.99 mm): Symbol Module1 Pin 14 [GND, Power input, Line]
@@ -2824,10 +2868,6 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-100.33 mm, 57.15 mm): Symbol Module1 Pin 22 [GND, Power input, Line]
-[different_unit_net]: Pin 24 is connected to both unconnected-(Module1A-GPIO26-Pad24) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO26
-    ; error
-    @(-100.33 mm, 59.69 mm): Symbol Module1 Pin 24 [GPIO26, Passive, Line]
-    @(39.116 mm, 46.99 mm): Symbol Module1 Pin 24 [GPIO26, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 59.69 mm): Symbol Module1 Pin 24 [GPIO26, Passive, Line]
@@ -2837,6 +2877,10 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 64.77 mm): Symbol Module1 Pin 28 [GPIO13, Passive, Line]
+[different_unit_net]: Pin 30 is connected to both unconnected-(Module1A-GPIO6-Pad30) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO6
+    ; error
+    @(-100.33 mm, 67.31 mm): Symbol Module1 Pin 30 [GPIO6, Passive, Line]
+    @(39.116 mm, 54.61 mm): Symbol Module1 Pin 30 [GPIO6, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 67.31 mm): Symbol Module1 Pin 30 [GPIO6, Passive, Line]
@@ -2860,10 +2904,6 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 74.93 mm): Symbol Module1 Pin 36 [ID_SD, Passive, Line]
-[different_unit_net]: Pin 38 is connected to both unconnected-(Module1A-GPIO11-Pad38) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO11
-    ; error
-    @(-100.33 mm, 77.47 mm): Symbol Module1 Pin 38 [GPIO11, Passive, Line]
-    @(39.116 mm, 64.77 mm): Symbol Module1 Pin 38 [GPIO11, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 77.47 mm): Symbol Module1 Pin 38 [GPIO11, Passive, Line]
@@ -2893,6 +2933,10 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 90.17 mm): Symbol Module1 Pin 48 [GPIO27, Passive, Line]
+[different_unit_net]: Pin 50 is connected to both unconnected-(Module1A-GPIO17-Pad50) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO17
+    ; error
+    @(-100.33 mm, 92.71 mm): Symbol Module1 Pin 50 [GPIO17, Passive, Line]
+    @(39.116 mm, 80.01 mm): Symbol Module1 Pin 50 [GPIO17, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 92.71 mm): Symbol Module1 Pin 50 [GPIO17, Passive, Line]
@@ -2925,6 +2969,10 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-100.33 mm, 105.41 mm): Symbol Module1 Pin 60 [GND, Power input, Line]
+[different_unit_net]: Pin 62 is connected to both unconnected-(Module1A-SD_CMD-Pad62) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SD_CMD
+    ; error
+    @(-100.33 mm, 107.95 mm): Symbol Module1 Pin 62 [SD_CMD, Passive, Line]
+    @(39.116 mm, 95.25 mm): Symbol Module1 Pin 62 [SD_CMD, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 107.95 mm): Symbol Module1 Pin 62 [SD_CMD, Passive, Line]
@@ -2960,6 +3008,10 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-100.33 mm, 123.19 mm): Symbol Module1 Pin 74 [GND, Power input, Line]
+[different_unit_net]: Pin 76 is connected to both unconnected-(Module1A-Reserved-Pad76) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/Reserved
+    ; error
+    @(-100.33 mm, 125.73 mm): Symbol Module1 Pin 76 [Reserved, Passive, Line]
+    @(39.116 mm, 113.03 mm): Symbol Module1 Pin 76 [Reserved, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 125.73 mm): Symbol Module1 Pin 76 [Reserved, Passive, Line]
@@ -2973,64 +3025,68 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-100.33 mm, 128.27 mm): Symbol Module1 Pin 78 [GPIO_VREF(1.8v/3.3v_Input), Power input, Line]
-[different_unit_net]: Pin 80 is connected to both unconnected-(Module1A-SCL0-Pad80) and /CM4_HighSpeed/SCL0
+[different_unit_net]: Pin 80 is connected to both unconnected-(Module1A-SCL0-Pad80) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SCL0
     ; error
     @(-100.33 mm, 130.81 mm): Symbol Module1 Pin 80 [SCL0, Passive, Line]
     @(39.116 mm, 118.11 mm): Symbol Module1 Pin 80 [SCL0, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 130.81 mm): Symbol Module1 Pin 80 [SCL0, Passive, Line]
-[different_unit_net]: Pin 82 is connected to both unconnected-(Module1A-SDA0-Pad82) and /CM4_HighSpeed/SDA0
+[different_unit_net]: Pin 82 is connected to both unconnected-(Module1A-SDA0-Pad82) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SDA0
     ; error
     @(-100.33 mm, 133.35 mm): Symbol Module1 Pin 82 [SDA0, Passive, Line]
     @(39.116 mm, 120.65 mm): Symbol Module1 Pin 82 [SDA0, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 133.35 mm): Symbol Module1 Pin 82 [SDA0, Passive, Line]
-[different_unit_net]: Pin 84 is connected to both unconnected-(Module1A-+3.3v_(Output)-Pad84) and /+3.3v
+[different_unit_net]: Pin 84 is connected to both unconnected-(Module1A-+3.3v_(Output)-Pad84) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+3.3v
     ; error
     @(-100.33 mm, 135.89 mm): Symbol Module1 Pin 84 [+3.3v_(Output), Power output, Line]
     @(39.116 mm, 123.19 mm): Symbol Module1 Pin 84 [+3.3v_(Output), Power output, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 135.89 mm): Symbol Module1 Pin 84 [+3.3v_(Output), Power output, Line]
-[different_unit_net]: Pin 86 is connected to both unconnected-(Module1A-+3.3v_(Output)-Pad86) and /+3.3v
+[different_unit_net]: Pin 86 is connected to both unconnected-(Module1A-+3.3v_(Output)-Pad86) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+3.3v
     ; error
     @(-100.33 mm, 138.43 mm): Symbol Module1 Pin 86 [+3.3v_(Output), Power output, Line]
     @(39.116 mm, 125.73 mm): Symbol Module1 Pin 86 [+3.3v_(Output), Power output, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 138.43 mm): Symbol Module1 Pin 86 [+3.3v_(Output), Power output, Line]
-[different_unit_net]: Pin 88 is connected to both unconnected-(Module1A-+1.8v_(Output)-Pad88) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+1.8v
-    ; error
-    @(-100.33 mm, 140.97 mm): Symbol Module1 Pin 88 [+1.8v_(Output), Power output, Line]
-    @(39.116 mm, 128.27 mm): Symbol Module1 Pin 88 [+1.8v_(Output), Power output, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 140.97 mm): Symbol Module1 Pin 88 [+1.8v_(Output), Power output, Line]
-[different_unit_net]: Pin 90 is connected to both unconnected-(Module1A-+1.8v_(Output)-Pad90) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+1.8v
-    ; error
-    @(-100.33 mm, 143.51 mm): Symbol Module1 Pin 90 [+1.8v_(Output), Power output, Line]
-    @(39.116 mm, 130.81 mm): Symbol Module1 Pin 90 [+1.8v_(Output), Power output, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 143.51 mm): Symbol Module1 Pin 90 [+1.8v_(Output), Power output, Line]
+[different_unit_net]: Pin 92 is connected to both unconnected-(Module1A-RUN_PG-Pad92) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/RUN_PG
+    ; error
+    @(-100.33 mm, 146.05 mm): Symbol Module1 Pin 92 [RUN_PG, Passive, Line]
+    @(39.116 mm, 133.35 mm): Symbol Module1 Pin 92 [RUN_PG, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 146.05 mm): Symbol Module1 Pin 92 [RUN_PG, Passive, Line]
+[different_unit_net]: Pin 94 is connected to both unconnected-(Module1A-AnalogIP0-Pad94) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/AIN1
+    ; error
+    @(-100.33 mm, 148.59 mm): Symbol Module1 Pin 94 [AnalogIP0, Passive, Line]
+    @(39.116 mm, 135.89 mm): Symbol Module1 Pin 94 [AnalogIP1, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 148.59 mm): Symbol Module1 Pin 94 [AnalogIP0, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 151.13 mm): Symbol Module1 Pin 96 [AnalogIP1, Passive, Line]
+[different_unit_net]: Pin 98 is connected to both unconnected-(Module1A-GND-Pad98) and GND
+    ; error
+    @(-100.33 mm, 153.67 mm): Symbol Module1 Pin 98 [GND, Power input, Line]
+    @(39.116 mm, 140.97 mm): Symbol Module1 Pin 98 [GND, Power input, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-100.33 mm, 153.67 mm): Symbol Module1 Pin 98 [GND, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-100.33 mm, 153.67 mm): Symbol Module1 Pin 98 [GND, Power input, Line]
-[different_unit_net]: Pin 100 is connected to both unconnected-(Module1A-nEXTRST-Pad100) and /nEXTRST
+[different_unit_net]: Pin 100 is connected to both unconnected-(Module1A-nEXTRST-Pad100) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/nEXTRST
     ; error
     @(-100.33 mm, 156.21 mm): Symbol Module1 Pin 100 [nEXTRST, Output, Line]
     @(39.116 mm, 143.51 mm): Symbol Module1 Pin 100 [nEXTRST, Output, Line]
@@ -3047,13 +3103,13 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 31.75 mm): Symbol Module1 Pin 1 [GND, Power input, Line]
-[different_unit_net]: Pin 3 is connected to both unconnected-(Module1A-Ethernet_Pair3_P-Pad3) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_P
-    ; error
-    @(-39.37 mm, 34.29 mm): Symbol Module1 Pin 3 [Ethernet_Pair3_P, Passive, Line]
-    @(100.076 mm, 21.59 mm): Symbol Module1 Pin 3 [Ethernet_Pair3_P, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 34.29 mm): Symbol Module1 Pin 3 [Ethernet_Pair3_P, Passive, Line]
+[different_unit_net]: Pin 5 is connected to both unconnected-(Module1A-Ethernet_Pair3_N-Pad5) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_N
+    ; error
+    @(-39.37 mm, 36.83 mm): Symbol Module1 Pin 5 [Ethernet_Pair3_N, Passive, Line]
+    @(100.076 mm, 24.13 mm): Symbol Module1 Pin 5 [Ethernet_Pair3_N, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 36.83 mm): Symbol Module1 Pin 5 [Ethernet_Pair3_N, Passive, Line]
@@ -3067,10 +3123,6 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 39.37 mm): Symbol Module1 Pin 7 [GND, Power input, Line]
-[different_unit_net]: Pin 9 is connected to both unconnected-(Module1A-Ethernet_Pair2_N-Pad9) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_N
-    ; error
-    @(-39.37 mm, 41.91 mm): Symbol Module1 Pin 9 [Ethernet_Pair2_N, Passive, Line]
-    @(100.076 mm, 29.21 mm): Symbol Module1 Pin 9 [Ethernet_Pair2_N, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 41.91 mm): Symbol Module1 Pin 9 [Ethernet_Pair2_N, Passive, Line]
@@ -3112,10 +3164,6 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 62.23 mm): Symbol Module1 Pin 25 [GPIO21, Passive, Line]
-[different_unit_net]: Pin 27 is connected to both unconnected-(Module1A-GPIO20-Pad27) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO20
-    ; error
-    @(-39.37 mm, 64.77 mm): Symbol Module1 Pin 27 [GPIO20, Passive, Line]
-    @(100.076 mm, 52.07 mm): Symbol Module1 Pin 27 [GPIO20, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 64.77 mm): Symbol Module1 Pin 27 [GPIO20, Passive, Line]
@@ -3161,19 +3209,23 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 85.09 mm): Symbol Module1 Pin 43 [GND, Power input, Line]
+[different_unit_net]: Pin 45 is connected to both unconnected-(Module1A-GPIO24-Pad45) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO24
+    ; error
+    @(-39.37 mm, 87.63 mm): Symbol Module1 Pin 45 [GPIO24, Passive, Line]
+    @(100.076 mm, 74.93 mm): Symbol Module1 Pin 45 [GPIO24, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 87.63 mm): Symbol Module1 Pin 45 [GPIO24, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 90.17 mm): Symbol Module1 Pin 47 [GPIO23, Passive, Line]
-[different_unit_net]: Pin 49 is connected to both unconnected-(Module1A-GPIO18-Pad49) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO18
-    ; error
-    @(-39.37 mm, 92.71 mm): Symbol Module1 Pin 49 [GPIO18, Passive, Line]
-    @(100.076 mm, 80.01 mm): Symbol Module1 Pin 49 [GPIO18, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 92.71 mm): Symbol Module1 Pin 49 [GPIO18, Passive, Line]
+[different_unit_net]: Pin 51 is connected to both unconnected-(Module1A-GPIO15-Pad51) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO15
+    ; error
+    @(-39.37 mm, 95.25 mm): Symbol Module1 Pin 51 [GPIO15, Passive, Line]
+    @(100.076 mm, 82.55 mm): Symbol Module1 Pin 51 [GPIO15, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 95.25 mm): Symbol Module1 Pin 51 [GPIO15, Passive, Line]
@@ -3190,6 +3242,10 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 100.33 mm): Symbol Module1 Pin 55 [GPIO14, Passive, Line]
+[different_unit_net]: Pin 57 is connected to both unconnected-(Module1A-SD_CLK-Pad57) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SD_CLK
+    ; error
+    @(-39.37 mm, 102.87 mm): Symbol Module1 Pin 57 [SD_CLK, Passive, Line]
+    @(100.076 mm, 90.17 mm): Symbol Module1 Pin 57 [SD_CLK, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 102.87 mm): Symbol Module1 Pin 57 [SD_CLK, Passive, Line]
@@ -3219,6 +3275,10 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 113.03 mm): Symbol Module1 Pin 65 [GND, Power input, Line]
+[different_unit_net]: Pin 67 is connected to both unconnected-(Module1A-SD_DAT1-Pad67) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SD_DAT1
+    ; error
+    @(-39.37 mm, 115.57 mm): Symbol Module1 Pin 67 [SD_DAT1, Passive, Line]
+    @(100.076 mm, 102.87 mm): Symbol Module1 Pin 67 [SD_DAT1, Passive, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 115.57 mm): Symbol Module1 Pin 67 [SD_DAT1, Passive, Line]
@@ -3244,7 +3304,7 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 125.73 mm): Symbol Module1 Pin 75 [SD_PWR_ON, Output, Line]
-[different_unit_net]: Pin 77 is connected to both unconnected-(Module1A-+5v_(Input)-Pad77) and /+5v
+[different_unit_net]: Pin 77 is connected to both unconnected-(Module1A-+5v_(Input)-Pad77) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+5v
     ; error
     @(-39.37 mm, 128.27 mm): Symbol Module1 Pin 77 [+5v_(Input), Power input, Line]
     @(100.076 mm, 115.57 mm): Symbol Module1 Pin 77 [+5v_(Input), Power input, Line]
@@ -3254,7 +3314,7 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 128.27 mm): Symbol Module1 Pin 77 [+5v_(Input), Power input, Line]
-[different_unit_net]: Pin 79 is connected to both unconnected-(Module1A-+5v_(Input)-Pad79) and /+5v
+[different_unit_net]: Pin 79 is connected to both unconnected-(Module1A-+5v_(Input)-Pad79) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+5v
     ; error
     @(-39.37 mm, 130.81 mm): Symbol Module1 Pin 79 [+5v_(Input), Power input, Line]
     @(100.076 mm, 118.11 mm): Symbol Module1 Pin 79 [+5v_(Input), Power input, Line]
@@ -3264,7 +3324,7 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 130.81 mm): Symbol Module1 Pin 79 [+5v_(Input), Power input, Line]
-[different_unit_net]: Pin 81 is connected to both unconnected-(Module1A-+5v_(Input)-Pad81) and /+5v
+[different_unit_net]: Pin 81 is connected to both unconnected-(Module1A-+5v_(Input)-Pad81) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+5v
     ; error
     @(-39.37 mm, 133.35 mm): Symbol Module1 Pin 81 [+5v_(Input), Power input, Line]
     @(100.076 mm, 120.65 mm): Symbol Module1 Pin 81 [+5v_(Input), Power input, Line]
@@ -3274,7 +3334,7 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 133.35 mm): Symbol Module1 Pin 81 [+5v_(Input), Power input, Line]
-[different_unit_net]: Pin 83 is connected to both unconnected-(Module1A-+5v_(Input)-Pad83) and /+5v
+[different_unit_net]: Pin 83 is connected to both unconnected-(Module1A-+5v_(Input)-Pad83) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+5v
     ; error
     @(-39.37 mm, 135.89 mm): Symbol Module1 Pin 83 [+5v_(Input), Power input, Line]
     @(100.076 mm, 123.19 mm): Symbol Module1 Pin 83 [+5v_(Input), Power input, Line]
@@ -3284,17 +3344,13 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 135.89 mm): Symbol Module1 Pin 83 [+5v_(Input), Power input, Line]
-[different_unit_net]: Pin 85 is connected to both unconnected-(Module1A-+5v_(Input)-Pad85) and /+5v
-    ; error
-    @(-39.37 mm, 138.43 mm): Symbol Module1 Pin 85 [+5v_(Input), Power input, Line]
-    @(100.076 mm, 125.73 mm): Symbol Module1 Pin 85 [+5v_(Input), Power input, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 138.43 mm): Symbol Module1 Pin 85 [+5v_(Input), Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 138.43 mm): Symbol Module1 Pin 85 [+5v_(Input), Power input, Line]
-[different_unit_net]: Pin 87 is connected to both unconnected-(Module1A-+5v_(Input)-Pad87) and /+5v
+[different_unit_net]: Pin 87 is connected to both unconnected-(Module1A-+5v_(Input)-Pad87) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+5v
     ; error
     @(-39.37 mm, 140.97 mm): Symbol Module1 Pin 87 [+5v_(Input), Power input, Line]
     @(100.076 mm, 128.27 mm): Symbol Module1 Pin 87 [+5v_(Input), Power input, Line]
@@ -3310,20 +3366,12 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 143.51 mm): Symbol Module1 Pin 89 [WiFi_nDisable, Power input, Line]
-[different_unit_net]: Pin 91 is connected to both unconnected-(Module1A-BT_nDisable-Pad91) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/BT_nDis
-    ; error
-    @(-39.37 mm, 146.05 mm): Symbol Module1 Pin 91 [BT_nDisable, Power input, Line]
-    @(100.076 mm, 133.35 mm): Symbol Module1 Pin 91 [BT_nDisable, Input, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 146.05 mm): Symbol Module1 Pin 91 [BT_nDisable, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(-39.37 mm, 146.05 mm): Symbol Module1 Pin 91 [BT_nDisable, Power input, Line]
-[different_unit_net]: Pin 93 is connected to both unconnected-(Module1A-nRPIBOOT-Pad93) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/nRPIBOOT
-    ; error
-    @(-39.37 mm, 148.59 mm): Symbol Module1 Pin 93 [nRPIBOOT, Input, Line]
-    @(100.076 mm, 135.89 mm): Symbol Module1 Pin 93 [nRPIBOOT, Input, Line]
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 148.59 mm): Symbol Module1 Pin 93 [nRPIBOOT, Input, Line]
@@ -3333,7 +3381,7 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_connected]: Pin not connected
     ; error
     @(-39.37 mm, 151.13 mm): Symbol Module1 Pin 95 [nPI_LED_PWR, Output, Line]
-[different_unit_net]: Pin 97 is connected to both unconnected-(Module1A-Camera_GPIO-Pad97) and /CM4_HighSpeed/CAM_GPIO
+[different_unit_net]: Pin 97 is connected to both unconnected-(Module1A-Camera_GPIO-Pad97) and /CM4_GPIO ( Ethernet, GPIO, SDCARD)/CAM_GPIO
     ; error
     @(-39.37 mm, 153.67 mm): Symbol Module1 Pin 97 [Camera_GPIO, Passive, Line]
     @(100.076 mm, 140.97 mm): Symbol Module1 Pin 97 [Camera_GPIO, Passive, Line]
@@ -3350,21 +3398,48 @@ Report includes: Errors, Warnings, Exclusions
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
     @(-39.37 mm, 156.21 mm): Symbol Module1 Pin 99 [Global_EN, Input, Line]
+[hier_label_mismatch]: Hierarchical label PCIE_CLK_nREQ has no matching sheet pin in the parent sheet
+    ; error
+    @(35.56 mm, 26.67 mm): Hierarchical Label 'PCIE_CLK_nREQ'
+[hier_label_mismatch]: Hierarchical label PCIE_CLK_P has no matching sheet pin in the parent sheet
+    ; error
+    @(35.56 mm, 36.83 mm): Hierarchical Label 'PCIE_CLK_P'
+[hier_label_mismatch]: Hierarchical label PCIE_CLK_N has no matching sheet pin in the parent sheet
+    ; error
+    @(35.56 mm, 39.37 mm): Hierarchical Label 'PCIE_CLK_N'
+[hier_label_mismatch]: Hierarchical label PCIE_RX_P has no matching sheet pin in the parent sheet
+    ; error
+    @(35.56 mm, 44.45 mm): Hierarchical Label 'PCIE_RX_P'
+[hier_label_mismatch]: Hierarchical label PCIE_RX_N has no matching sheet pin in the parent sheet
+    ; error
+    @(35.56 mm, 46.99 mm): Hierarchical Label 'PCIE_RX_N'
+[hier_label_mismatch]: Hierarchical label PCIE_TX_P has no matching sheet pin in the parent sheet
+    ; error
+    @(35.56 mm, 52.07 mm): Hierarchical Label 'PCIE_TX_P'
+[hier_label_mismatch]: Hierarchical label PCIE_TX_N has no matching sheet pin in the parent sheet
+    ; error
+    @(35.56 mm, 54.61 mm): Hierarchical Label 'PCIE_TX_N'
 [no_connect_dangling]: Unconnected "no connection" flag
     ; error
     @(41.91 mm, 29.21 mm): No Connect
 [no_connect_dangling]: Unconnected "no connection" flag
     ; error
     @(41.91 mm, 31.75 mm): No Connect
+[hier_label_mismatch]: Hierarchical label PCIE_nRST has no matching sheet pin in the parent sheet
+    ; error
+    @(109.22 mm, 36.83 mm): Hierarchical Label 'PCIE_nRST'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(129.54 mm, 176.53 mm): Symbol U12 Pin 1 [IN, Power input, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(264.16 mm, 95.25 mm): Symbol J10 Pin 18 [+5V, Power input, Line]
 
 ***** Sheet /CM4_GPIO ( Ethernet, GPIO, SDCARD)/
-[different_unit_net]: Pin 4 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_P and unconnected-(Module1A-Ethernet_Pair1_P-Pad4)
+[different_unit_net]: Pin 6 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD1_N and unconnected-(Module1A-Ethernet_Pair1_N-Pad6)
     ; error
-    @(39.116 mm, 21.59 mm): Symbol Module1 Pin 4 [Ethernet_Pair1_P, Passive, Line]
-    @(-100.33 mm, 34.29 mm): Symbol Module1 Pin 4 [Ethernet_Pair1_P, Passive, Line]
+    @(39.116 mm, 24.13 mm): Symbol Module1 Pin 6 [Ethernet_Pair1_N, Passive, Line]
+    @(-100.33 mm, 36.83 mm): Symbol Module1 Pin 6 [Ethernet_Pair1_N, Passive, Line]
 [different_unit_net]: Pin 10 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD0_N and unconnected-(Module1A-Ethernet_Pair0_N-Pad10)
     ; error
     @(39.116 mm, 29.21 mm): Symbol Module1 Pin 10 [Ethernet_Pair0_N, Passive, Line]
@@ -3373,6 +3448,10 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(39.116 mm, 31.75 mm): Symbol Module1 Pin 12 [Ethernet_Pair0_P, Passive, Line]
     @(-100.33 mm, 44.45 mm): Symbol Module1 Pin 12 [Ethernet_Pair0_P, Passive, Line]
+[different_unit_net]: Pin 14 is connected to both GND and unconnected-(Module1A-GND-Pad14)
+    ; error
+    @(39.116 mm, 34.29 mm): Symbol Module1 Pin 14 [GND, Power input, Line]
+    @(-100.33 mm, 46.99 mm): Symbol Module1 Pin 14 [GND, Power input, Line]
 [different_unit_net]: Pin 16 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SYNC_IN and unconnected-(Module1A-Ethernet_SYNC_IN(1.8v)-Pad16)
     ; error
     @(39.116 mm, 36.83 mm): Symbol Module1 Pin 16 [Ethernet_SYNC_IN(1.8v), Input, Line]
@@ -3385,6 +3464,10 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(39.116 mm, 41.91 mm): Symbol Module1 Pin 20 [EEPROM_nWP, Passive, Line]
     @(-100.33 mm, 54.61 mm): Symbol Module1 Pin 20 [EEPROM_nWP, Passive, Line]
+[different_unit_net]: Pin 24 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO26 and unconnected-(Module1A-GPIO26-Pad24)
+    ; error
+    @(39.116 mm, 46.99 mm): Symbol Module1 Pin 24 [GPIO26, Passive, Line]
+    @(-100.33 mm, 59.69 mm): Symbol Module1 Pin 24 [GPIO26, Passive, Line]
 [different_unit_net]: Pin 26 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO19 and unconnected-(Module1A-GPIO19-Pad26)
     ; error
     @(39.116 mm, 49.53 mm): Symbol Module1 Pin 26 [GPIO19, Passive, Line]
@@ -3393,14 +3476,14 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(39.116 mm, 52.07 mm): Symbol Module1 Pin 28 [GPIO13, Passive, Line]
     @(-100.33 mm, 64.77 mm): Symbol Module1 Pin 28 [GPIO13, Passive, Line]
-[different_unit_net]: Pin 30 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO6 and unconnected-(Module1A-GPIO6-Pad30)
-    ; error
-    @(39.116 mm, 54.61 mm): Symbol Module1 Pin 30 [GPIO6, Passive, Line]
-    @(-100.33 mm, 67.31 mm): Symbol Module1 Pin 30 [GPIO6, Passive, Line]
 [different_unit_net]: Pin 34 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO5 and unconnected-(Module1A-GPIO5-Pad34)
     ; error
     @(39.116 mm, 59.69 mm): Symbol Module1 Pin 34 [GPIO5, Passive, Line]
     @(-100.33 mm, 72.39 mm): Symbol Module1 Pin 34 [GPIO5, Passive, Line]
+[different_unit_net]: Pin 38 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO11 and unconnected-(Module1A-GPIO11-Pad38)
+    ; error
+    @(39.116 mm, 64.77 mm): Symbol Module1 Pin 38 [GPIO11, Passive, Line]
+    @(-100.33 mm, 77.47 mm): Symbol Module1 Pin 38 [GPIO11, Passive, Line]
 [different_unit_net]: Pin 44 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO10 and unconnected-(Module1A-GPIO10-Pad44)
     ; error
     @(39.116 mm, 72.39 mm): Symbol Module1 Pin 44 [GPIO10, Passive, Line]
@@ -3413,10 +3496,6 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(39.116 mm, 77.47 mm): Symbol Module1 Pin 48 [GPIO27, Passive, Line]
     @(-100.33 mm, 90.17 mm): Symbol Module1 Pin 48 [GPIO27, Passive, Line]
-[different_unit_net]: Pin 50 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO17 and unconnected-(Module1A-GPIO17-Pad50)
-    ; error
-    @(39.116 mm, 80.01 mm): Symbol Module1 Pin 50 [GPIO17, Passive, Line]
-    @(-100.33 mm, 92.71 mm): Symbol Module1 Pin 50 [GPIO17, Passive, Line]
 [different_unit_net]: Pin 54 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO4 and unconnected-(Module1A-GPIO4-Pad54)
     ; error
     @(39.116 mm, 85.09 mm): Symbol Module1 Pin 54 [GPIO4, Passive, Line]
@@ -3429,10 +3508,6 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(39.116 mm, 90.17 mm): Symbol Module1 Pin 58 [GPIO2, Passive, Line]
     @(-100.33 mm, 102.87 mm): Symbol Module1 Pin 58 [GPIO2, Passive, Line]
-[different_unit_net]: Pin 62 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SD_CMD and unconnected-(Module1A-SD_CMD-Pad62)
-    ; error
-    @(39.116 mm, 95.25 mm): Symbol Module1 Pin 62 [SD_CMD, Passive, Line]
-    @(-100.33 mm, 107.95 mm): Symbol Module1 Pin 62 [SD_CMD, Passive, Line]
 [no_connect_connected]: A pin with a "no connection" flag is connected
     ; error
     @(39.116 mm, 97.79 mm): Symbol Module1 Pin 64 [SD_DAT5, Passive, Line]
@@ -3449,10 +3524,6 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(39.116 mm, 107.95 mm): Symbol Module1 Pin 72 [SD_DAT6, Passive, Line]
     @(39.116 mm, 107.95 mm): No Connect
-[different_unit_net]: Pin 76 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/Reserved and unconnected-(Module1A-Reserved-Pad76)
-    ; error
-    @(39.116 mm, 113.03 mm): Symbol Module1 Pin 76 [Reserved, Passive, Line]
-    @(-100.33 mm, 125.73 mm): Symbol Module1 Pin 76 [Reserved, Passive, Line]
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(39.116 mm, 115.57 mm): Symbol Module1 Pin 78 [GPIO_VREF(1.8v/3.3v_Input), Power input, Line]
@@ -3460,30 +3531,30 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(39.116 mm, 123.19 mm): Symbol Module1 Pin 84 [+3.3v_(Output), Power output, Line]
     @(39.116 mm, 125.73 mm): Symbol Module1 Pin 86 [+3.3v_(Output), Power output, Line]
+[different_unit_net]: Pin 88 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+1.8v and unconnected-(Module1A-+1.8v_(Output)-Pad88)
+    ; error
+    @(39.116 mm, 128.27 mm): Symbol Module1 Pin 88 [+1.8v_(Output), Power output, Line]
+    @(-100.33 mm, 140.97 mm): Symbol Module1 Pin 88 [+1.8v_(Output), Power output, Line]
 [pin_to_pin]: Pins of type Power output and Power output are connected
     ; error
     @(39.116 mm, 128.27 mm): Symbol Module1 Pin 88 [+1.8v_(Output), Power output, Line]
     @(39.116 mm, 130.81 mm): Symbol Module1 Pin 90 [+1.8v_(Output), Power output, Line]
-[different_unit_net]: Pin 92 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/RUN_PG and unconnected-(Module1A-RUN_PG-Pad92)
+[different_unit_net]: Pin 90 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+1.8v and unconnected-(Module1A-+1.8v_(Output)-Pad90)
     ; error
-    @(39.116 mm, 133.35 mm): Symbol Module1 Pin 92 [RUN_PG, Passive, Line]
-    @(-100.33 mm, 146.05 mm): Symbol Module1 Pin 92 [RUN_PG, Passive, Line]
-[different_unit_net]: Pin 94 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/AIN1 and unconnected-(Module1A-AnalogIP0-Pad94)
-    ; error
-    @(39.116 mm, 135.89 mm): Symbol Module1 Pin 94 [AnalogIP1, Passive, Line]
-    @(-100.33 mm, 148.59 mm): Symbol Module1 Pin 94 [AnalogIP0, Passive, Line]
+    @(39.116 mm, 130.81 mm): Symbol Module1 Pin 90 [+1.8v_(Output), Power output, Line]
+    @(-100.33 mm, 143.51 mm): Symbol Module1 Pin 90 [+1.8v_(Output), Power output, Line]
 [different_unit_net]: Pin 96 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/AIN0 and unconnected-(Module1A-AnalogIP1-Pad96)
     ; error
     @(39.116 mm, 138.43 mm): Symbol Module1 Pin 96 [AnalogIP0, Passive, Line]
     @(-100.33 mm, 151.13 mm): Symbol Module1 Pin 96 [AnalogIP1, Passive, Line]
-[different_unit_net]: Pin 98 is connected to both GND and unconnected-(Module1A-GND-Pad98)
+[different_unit_net]: Pin 3 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_P and unconnected-(Module1A-Ethernet_Pair3_P-Pad3)
     ; error
-    @(39.116 mm, 140.97 mm): Symbol Module1 Pin 98 [GND, Power input, Line]
-    @(-100.33 mm, 153.67 mm): Symbol Module1 Pin 98 [GND, Power input, Line]
-[different_unit_net]: Pin 5 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD3_N and unconnected-(Module1A-Ethernet_Pair3_N-Pad5)
+    @(100.076 mm, 21.59 mm): Symbol Module1 Pin 3 [Ethernet_Pair3_P, Passive, Line]
+    @(-39.37 mm, 34.29 mm): Symbol Module1 Pin 3 [Ethernet_Pair3_P, Passive, Line]
+[different_unit_net]: Pin 9 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_N and unconnected-(Module1A-Ethernet_Pair2_N-Pad9)
     ; error
-    @(100.076 mm, 24.13 mm): Symbol Module1 Pin 5 [Ethernet_Pair3_N, Passive, Line]
-    @(-39.37 mm, 36.83 mm): Symbol Module1 Pin 5 [Ethernet_Pair3_N, Passive, Line]
+    @(100.076 mm, 29.21 mm): Symbol Module1 Pin 9 [Ethernet_Pair2_N, Passive, Line]
+    @(-39.37 mm, 41.91 mm): Symbol Module1 Pin 9 [Ethernet_Pair2_N, Passive, Line]
 [different_unit_net]: Pin 11 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/TRD2_P and unconnected-(Module1A-Ethernet_Pair2_P-Pad11)
     ; error
     @(100.076 mm, 31.75 mm): Symbol Module1 Pin 11 [Ethernet_Pair2_P, Passive, Line]
@@ -3508,6 +3579,10 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(100.076 mm, 49.53 mm): Symbol Module1 Pin 25 [GPIO21, Passive, Line]
     @(-39.37 mm, 62.23 mm): Symbol Module1 Pin 25 [GPIO21, Passive, Line]
+[different_unit_net]: Pin 27 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO20 and unconnected-(Module1A-GPIO20-Pad27)
+    ; error
+    @(100.076 mm, 52.07 mm): Symbol Module1 Pin 27 [GPIO20, Passive, Line]
+    @(-39.37 mm, 64.77 mm): Symbol Module1 Pin 27 [GPIO20, Passive, Line]
 [different_unit_net]: Pin 29 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO16 and unconnected-(Module1A-GPIO16-Pad29)
     ; error
     @(100.076 mm, 54.61 mm): Symbol Module1 Pin 29 [GPIO16, Passive, Line]
@@ -3528,26 +3603,18 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(100.076 mm, 69.85 mm): Symbol Module1 Pin 41 [GPIO25, Passive, Line]
     @(-39.37 mm, 82.55 mm): Symbol Module1 Pin 41 [GPIO25, Passive, Line]
-[different_unit_net]: Pin 45 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO24 and unconnected-(Module1A-GPIO24-Pad45)
-    ; error
-    @(100.076 mm, 74.93 mm): Symbol Module1 Pin 45 [GPIO24, Passive, Line]
-    @(-39.37 mm, 87.63 mm): Symbol Module1 Pin 45 [GPIO24, Passive, Line]
 [different_unit_net]: Pin 47 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO23 and unconnected-(Module1A-GPIO23-Pad47)
     ; error
     @(100.076 mm, 77.47 mm): Symbol Module1 Pin 47 [GPIO23, Passive, Line]
     @(-39.37 mm, 90.17 mm): Symbol Module1 Pin 47 [GPIO23, Passive, Line]
-[different_unit_net]: Pin 51 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO15 and unconnected-(Module1A-GPIO15-Pad51)
+[different_unit_net]: Pin 49 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO18 and unconnected-(Module1A-GPIO18-Pad49)
     ; error
-    @(100.076 mm, 82.55 mm): Symbol Module1 Pin 51 [GPIO15, Passive, Line]
-    @(-39.37 mm, 95.25 mm): Symbol Module1 Pin 51 [GPIO15, Passive, Line]
+    @(100.076 mm, 80.01 mm): Symbol Module1 Pin 49 [GPIO18, Passive, Line]
+    @(-39.37 mm, 92.71 mm): Symbol Module1 Pin 49 [GPIO18, Passive, Line]
 [different_unit_net]: Pin 55 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/GPIO14 and unconnected-(Module1A-GPIO14-Pad55)
     ; error
     @(100.076 mm, 87.63 mm): Symbol Module1 Pin 55 [GPIO14, Passive, Line]
     @(-39.37 mm, 100.33 mm): Symbol Module1 Pin 55 [GPIO14, Passive, Line]
-[different_unit_net]: Pin 57 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SD_CLK and unconnected-(Module1A-SD_CLK-Pad57)
-    ; error
-    @(100.076 mm, 90.17 mm): Symbol Module1 Pin 57 [SD_CLK, Passive, Line]
-    @(-39.37 mm, 102.87 mm): Symbol Module1 Pin 57 [SD_CLK, Passive, Line]
 [different_unit_net]: Pin 61 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SD_DAT3 and unconnected-(Module1A-SD_DAT3-Pad61)
     ; error
     @(100.076 mm, 95.25 mm): Symbol Module1 Pin 61 [SD_DAT3, Passive, Line]
@@ -3556,10 +3623,6 @@ Report includes: Errors, Warnings, Exclusions
     ; error
     @(100.076 mm, 97.79 mm): Symbol Module1 Pin 63 [SD_DAT0, Passive, Line]
     @(-39.37 mm, 110.49 mm): Symbol Module1 Pin 63 [SD_DAT0, Passive, Line]
-[different_unit_net]: Pin 67 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SD_DAT1 and unconnected-(Module1A-SD_DAT1-Pad67)
-    ; error
-    @(100.076 mm, 102.87 mm): Symbol Module1 Pin 67 [SD_DAT1, Passive, Line]
-    @(-39.37 mm, 115.57 mm): Symbol Module1 Pin 67 [SD_DAT1, Passive, Line]
 [different_unit_net]: Pin 69 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/SD_DAT2 and unconnected-(Module1A-SD_DAT2-Pad69)
     ; error
     @(100.076 mm, 105.41 mm): Symbol Module1 Pin 69 [SD_DAT2, Passive, Line]
@@ -3575,10 +3638,22 @@ Report includes: Errors, Warnings, Exclusions
 [power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; error
     @(100.076 mm, 115.57 mm): Symbol Module1 Pin 77 [+5v_(Input), Power input, Line]
+[different_unit_net]: Pin 85 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/+5v and unconnected-(Module1A-+5v_(Input)-Pad85)
+    ; error
+    @(100.076 mm, 125.73 mm): Symbol Module1 Pin 85 [+5v_(Input), Power input, Line]
+    @(-39.37 mm, 138.43 mm): Symbol Module1 Pin 85 [+5v_(Input), Power input, Line]
 [different_unit_net]: Pin 89 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/WL_nDis and unconnected-(Module1A-WiFi_nDisable-Pad89)
     ; error
     @(100.076 mm, 130.81 mm): Symbol Module1 Pin 89 [WL_nDisable, Input, Line]
     @(-39.37 mm, 143.51 mm): Symbol Module1 Pin 89 [WiFi_nDisable, Power input, Line]
+[different_unit_net]: Pin 91 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/BT_nDis and unconnected-(Module1A-BT_nDisable-Pad91)
+    ; error
+    @(100.076 mm, 133.35 mm): Symbol Module1 Pin 91 [BT_nDisable, Input, Line]
+    @(-39.37 mm, 146.05 mm): Symbol Module1 Pin 91 [BT_nDisable, Power input, Line]
+[different_unit_net]: Pin 93 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/nRPIBOOT and unconnected-(Module1A-nRPIBOOT-Pad93)
+    ; error
+    @(100.076 mm, 135.89 mm): Symbol Module1 Pin 93 [nRPIBOOT, Input, Line]
+    @(-39.37 mm, 148.59 mm): Symbol Module1 Pin 93 [nRPIBOOT, Input, Line]
 [different_unit_net]: Pin 95 is connected to both /CM4_GPIO ( Ethernet, GPIO, SDCARD)/nPWR_LED and unconnected-(Module1A-nPI_LED_PWR-Pad95)
     ; error
     @(100.076 mm, 138.43 mm): Symbol Module1 Pin 95 [nPI_LED_PWR, Output, Line]
@@ -3593,7 +3668,7 @@ Report includes: Errors, Warnings, Exclusions
     @(196.85 mm, 139.192 mm): Symbol #PWR0122 Hidden pin 1 [GND, Power input, Line]
     @(83.566 mm, 175.26 mm): Label 'GND'
 
- ** ERC messages: 1159  Errors 254  Warnings 905
+ ** ERC messages: 1184  Errors 293  Warnings 891
 
  ** Ignored checks:
     - Global label only appears once in the schematic
