@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3723ff3d-e042-4ab2-a342-b6ae89de6250")
+	(paper "A4")
+	(title_block
+		(title "CM4 Mini PC - 05 Gigabit Ethernet RJ45 MagJack")
+		(rev "v1.0")
+		(company "Julio - ECE Hardware Portfolio")
+		(comment 1 "10/100/1000 Mbps RJ45 with Integrated Magnetics & Status LEDs")
+	)
+	(lib_symbols)
+)

@@ -1,0 +1,281 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c4bd31db-697c-4373-8248-b3f8e4c94988")
+	(paper "A3")
+	(title_block
+		(title "CM4 Mini PC - Master Hierarchical Architecture")
+		(rev "v1.0")
+		(company "Julio - ECE Hardware Portfolio")
+		(comment 1 "Raspberry Pi Compute Module 4 Custom 4-Layer High-Speed Carrier Board")
+		(comment 2 "Hierarchical Block Diagram & Sub-System Interconnects")
+	)
+	(lib_symbols)
+	(sheet
+		(at 127 38.1)
+		(size 76.2 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "066bc503-3c14-4086-b401-a3d5cc62fb5c")
+		(property "Sheetname" "CM4 Mezzanine Hirose"
+			(at 127 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_CM4_Mezzanine.kicad_sch"
+			(at 127 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
+		(at 127 101.6)
+		(size 76.2 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "4460de0b-b5ca-4dca-8676-d0686a638e47")
+		(property "Sheetname" "USB 2.0 4-Port Hub"
+			(at 127 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_USB_Hub.kicad_sch"
+			(at 127 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 139.7)
+		(size 76.2 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "89120c8b-e0eb-4ff0-a427-6ea9f2a8ecf5")
+		(property "Sheetname" "Gigabit Ethernet"
+			(at 25.4 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_Ethernet.kicad_sch"
+			(at 25.4 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
+		(at 127 152.4)
+		(size 76.2 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "9d6a6d4b-d52c-4f6e-bb60-9b60dfc733d9")
+		(property "Sheetname" "MicroSD Boot Storage"
+			(at 127 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_Storage_MicroSD.kicad_sch"
+			(at 127 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 88.9)
+		(size 76.2 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "a4882799-3c96-4409-a53f-5e2e46580c0a")
+		(property "Sheetname" "HDMI0 Display"
+			(at 25.4 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_HDMI.kicad_sch"
+			(at 25.4 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 38.1)
+		(size 76.2 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "a49597e8-5fa2-401a-99e6-d3226368e902")
+		(property "Sheetname" "Power & Regulators"
+			(at 25.4 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_Power.kicad_sch"
+			(at 25.4 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 190.5)
+		(size 76.2 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "e9e52316-d830-44ee-ae15-70355d7b6bf3")
+		(property "Sheetname" "RTC Clock & Battery"
+			(at 25.4 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "07_RTC.kicad_sch"
+			(at 25.4 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+)

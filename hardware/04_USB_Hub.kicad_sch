@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b2f90dde-73bf-4401-add7-5bec24f79104")
+	(paper "A3")
+	(title_block
+		(title "CM4 Mini PC - 04 USB 2.0 4-Port Hub & Stacked Receptacles")
+		(rev "v1.0")
+		(company "Julio - ECE Hardware Portfolio")
+		(comment 1 "Microchip USB2514B Controller, 24MHz Crystal, Dual Stacked USB-A Jacks")
+	)
+	(lib_symbols)
+)

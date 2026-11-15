@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5063a595-40f5-4eda-9c66-106e6612c480")
+	(paper "A4")
+	(title_block
+		(title "CM4 Mini PC - 07 Real-Time Clock & Battery")
+		(rev "v1.0")
+		(company "Julio - ECE Hardware Portfolio")
+		(comment 1 "NXP PCF85063A I2C RTC, 32.768kHz Crystal, CR1220 Battery Backup")
+	)
+	(lib_symbols)
+)
