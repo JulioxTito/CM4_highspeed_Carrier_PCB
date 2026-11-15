@@ -5,10 +5,10 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(title "CM4 Mini PC - Master Architecture")
+		(title "Compute Module 4 IO Board - Top Level")
 		(rev "1")
-		(company "Julio - ECE Hardware Portfolio")
-		(comment 1 "Custom 4-Layer High-Speed Carrier Board for Raspberry Pi CM4")
+		(company "© 2020-2022 Raspberry Pi Ltd (formerly Raspberry Pi (Trading) Ltd.)")
+		(comment 1 "www.raspberrypi.com")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
