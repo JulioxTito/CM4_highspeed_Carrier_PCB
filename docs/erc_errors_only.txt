@@ -1,4 +1,4 @@
-ERC report (2026-11-14T20:41:07, Encoding UTF8)
+ERC report (2026-11-14T21:05:53, Encoding UTF8)
 Report includes: Errors
 
 ***** Sheet /
@@ -35,6 +35,8 @@ Report includes: Errors
 [pin_not_driven]: Input pin not driven by any Output pins
     ; error
     @(151.13 mm, 96.52 mm): Symbol U6 Pin 13 [OCS_N1, Input, Line]
+
+***** Sheet /M2_NVME_Storage/
 
  ** ERC messages: 7  Errors 7  Warnings 0
 
