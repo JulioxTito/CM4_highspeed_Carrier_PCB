@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Julio\\Desktop\\KiCad Review folder\\CM4_Mini_PC\\hardware\\CM4_Mini_PC.kicad_sch")
-		(date "2026-11-14T21:44:58")
+		(date "2026-11-15T00:41:32")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
@@ -12824,7 +12824,7 @@
 				(pin
 					(num "2")
 					(name "VIN")
-					(type "power_in")
+					(type "passive")
 				)
 				(pin
 					(num "3")
@@ -14168,7 +14168,7 @@
 				(pin
 					(num "18")
 					(name "+5V")
-					(type "power_in")
+					(type "passive")
 				)
 				(pin
 					(num "19")
@@ -15781,7 +15781,7 @@
 				(pin
 					(num "13")
 					(name "OCS_N1")
-					(type "input")
+					(type "bidirectional")
 				)
 				(pin
 					(num "14")
@@ -15976,7 +15976,7 @@
 				(pin
 					(num "6")
 					(name "SCL")
-					(type "input")
+					(type "bidirectional")
 				)
 				(pin
 					(num "7")
@@ -16221,7 +16221,7 @@
 				(ref "Module1")
 				(pin "86")
 				(pinfunction "+3.3v_(Output)_86")
-				(pintype "power_out")
+				(pintype "passive")
 			)
 			(node
 				(ref "R17")
@@ -16567,7 +16567,7 @@
 				(ref "U16")
 				(pin "2")
 				(pinfunction "VIN_2")
-				(pintype "power_in")
+				(pintype "passive")
 			)
 			(node
 				(ref "U16")
@@ -16590,7 +16590,7 @@
 				(ref "Module1")
 				(pin "90")
 				(pinfunction "+1.8v_(Output)_90")
-				(pintype "power_out")
+				(pintype "passive")
 			)
 			(node
 				(ref "R4")
@@ -18665,13 +18665,13 @@
 				(ref "J10")
 				(pin "18")
 				(pinfunction "+5V_18")
-				(pintype "power_in")
+				(pintype "passive")
 			)
 			(node
 				(ref "J22")
 				(pin "18")
 				(pinfunction "+5V_18")
-				(pintype "power_in")
+				(pintype "passive")
 			)
 			(node
 				(ref "U12")
@@ -19056,7 +19056,7 @@
 				(ref "U6")
 				(pin "13")
 				(pinfunction "OCS_N1_13")
-				(pintype "input")
+				(pintype "bidirectional")
 			)
 			(node
 				(ref "U6")
@@ -20297,7 +20297,7 @@
 				(ref "Module1")
 				(pin "78")
 				(pinfunction "GPIO_VREF(1.8v/3.3v_Input)_78")
-				(pintype "power_in")
+				(pintype "passive")
 			)
 			(node
 				(ref "R4")
@@ -21130,7 +21130,7 @@
 				(ref "U8")
 				(pin "6")
 				(pinfunction "SCL_6")
-				(pintype "input")
+				(pintype "bidirectional")
 			)
 		)
 		(net

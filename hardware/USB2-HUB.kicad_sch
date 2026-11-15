@@ -3760,7 +3760,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 27.94 15.24 180)
 					(length 2.54)
 					(name "OCS_N1"
