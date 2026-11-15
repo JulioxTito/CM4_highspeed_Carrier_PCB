@@ -22,3 +22,5 @@ fp-info-cache
 gerbers/
 outputs/
 *.zip
+.history/
+*/.history/
