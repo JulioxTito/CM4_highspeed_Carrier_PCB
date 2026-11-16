@@ -5,23 +5,12 @@
 	(uuid "3aec5e23-e675-4bcf-9a9e-48cb59d51927")
 	(paper "A4")
 	(title_block
-		(title "Compute Module 4 IO Board - CM4 - Highspeed")
-		(rev "1")
-		(company "© 2020-2022 Raspberry Pi Ltd (formerly Raspberry Pi (Trading) Ltd.)")
-		(comment 1 "www.raspberrypi.com")
+		(title "CM4 Mini PC - High-Speed Video & PCIe Subsystem")
+		(rev "1.0")
+		(company "Designed by Julio Tito")
+		(comment 1 "Custom 4-Layer High-Speed Carrier Board")
 	)
 	(lib_symbols
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin power_out line (at 0 0 90) (length 0) hide (name "pwr" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
-			(property "Reference" "#FLG" (at 0 1.905 0) (effects (font (size 1.27 1.27)) hide))
-			(property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
-			(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-			(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-			(symbol "PWR_FLAG_0_1"
-				(polyline (pts (xy 0 0) (xy 0 1.27) (xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27) (xy 0 1.27)) (stroke (width 0) (type default)) (fill (type outline)))
-			)
-		)
 		(symbol "CM4IO:ComputeModule4-CM4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6209,6 +6198,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Jumpers to be fitted if Camera0 or Display0 are used.\n"
 		(exclude_from_sim no)
@@ -6668,6 +6755,10 @@
 	(no_connect
 		(at 208.28 135.89)
 		(uuid "50d092a1-cb48-4b36-9419-53ddb3f8fa14")
+	)
+	(no_connect
+		(at 102.87 26.67)
+		(uuid "559cacb4-6cdf-4d02-9247-f210a8d80416")
 	)
 	(no_connect
 		(at 41.91 31.75)
@@ -10647,16 +10738,6 @@
 		)
 		(uuid "c027fa6b-8e6d-4e11-8804-979831dae8d5")
 	)
-	(global_label "ID_SC"
-		(at 40.64 184.912 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c261f2c7-400a-44c0-9c0a-e7dc7bbb3f90")
-	)
 	(label "SCL1"
 		(at 197.358 76.2 180)
 		(effects
@@ -10806,16 +10887,6 @@
 			(justify left bottom)
 		)
 		(uuid "dbc9643b-8b89-4ff3-80f6-063535be3753")
-	)
-	(global_label "ID_SD"
-		(at 40.64 187.452 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dbe20cc9-b99f-4e22-ad59-f96e667d1efa")
 	)
 	(label "+3.3v"
 		(at 143.51 148.59 0)
@@ -11017,6 +11088,17 @@
 			(justify right)
 		)
 		(uuid "168a0226-3f44-46ec-a72a-15290137bd66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "PCIE_RX_P"
 		(shape input)
@@ -11028,6 +11110,17 @@
 			(justify right)
 		)
 		(uuid "17c7b03d-e4b9-4587-b2ce-0ee7a9d30575")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "TV_OUT"
 		(shape output)
@@ -11039,6 +11132,17 @@
 			(justify left)
 		)
 		(uuid "18406746-0f9d-4d88-9ef2-8423e08576f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "PCIE_CLK_N"
 		(shape output)
@@ -11050,6 +11154,17 @@
 			(justify right)
 		)
 		(uuid "2009ab3a-f4bf-4c63-a0fe-9d170c762787")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "PCIE_nRST"
 		(shape output)
@@ -11061,6 +11176,17 @@
 			(justify left)
 		)
 		(uuid "20ac7a70-5cb9-4418-b061-8e4ee8d36b79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "ID_SC"
 		(shape input)
@@ -11072,6 +11198,17 @@
 			(justify right)
 		)
 		(uuid "2926e945-d9e3-4a4e-9b51-aad244dc04f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.052 184.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "PCIE_RX_N"
 		(shape input)
@@ -11083,6 +11220,17 @@
 			(justify right)
 		)
 		(uuid "381ea437-8589-413a-8d00-c27a465a3773")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "ID_SD"
 		(shape input)
@@ -11094,6 +11242,17 @@
 			(justify right)
 		)
 		(uuid "432045b0-7589-468b-8659-999ac30c51fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.052 187.452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "PCIE_CLK_nREQ"
 		(shape input)
@@ -11105,6 +11264,17 @@
 			(justify right)
 		)
 		(uuid "4d290f63-844a-4f7b-8aec-c610c29b1e2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "CAM_GPIO"
 		(shape input)
@@ -11116,6 +11286,17 @@
 			(justify right)
 		)
 		(uuid "54562a16-6662-4d1b-9b50-45ed0ae36481")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "GPIO_VREF"
 		(shape input)
@@ -11127,6 +11308,17 @@
 			(justify right)
 		)
 		(uuid "6f581e98-caac-4a3a-b0ed-76aab462e56a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 170.561 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "USBOTG_ID"
 		(shape input)
@@ -11138,6 +11330,17 @@
 			(justify left)
 		)
 		(uuid "73b08644-febb-4c1e-9b8f-826cf4cd7348")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "SDA0"
 		(shape input)
@@ -11149,6 +11352,39 @@
 			(justify right)
 		)
 		(uuid "a1bbbcb7-3394-4d47-a7e2-c5aca5915b62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ID_SC"
+		(shape bidirectional)
+		(at 40.64 184.912 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c261f2c7-400a-44c0-9c0a-e7dc7bbb3f90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 184.912 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "+3.3v"
 		(shape input)
@@ -11160,6 +11396,17 @@
 			(justify right)
 		)
 		(uuid "ccefc75b-fd16-4e82-963f-281710a98051")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.51 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "USB2_P"
 		(shape bidirectional)
@@ -11171,6 +11418,39 @@
 			(justify left)
 		)
 		(uuid "d0823f78-79d3-470b-87e6-694e750395bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "ID_SD"
+		(shape bidirectional)
+		(at 40.64 187.452 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbe20cc9-b99f-4e22-ad59-f96e667d1efa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 187.452 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "PCIE_TX_N"
 		(shape output)
@@ -11182,6 +11462,17 @@
 			(justify right)
 		)
 		(uuid "dc50af72-15b3-4fb5-bf25-289e8b8f51f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "+5v"
 		(shape input)
@@ -11193,6 +11484,17 @@
 			(justify right)
 		)
 		(uuid "dfdaa22a-0489-48da-8a56-737e4c4366e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "PCIE_TX_P"
 		(shape output)
@@ -11204,6 +11506,17 @@
 			(justify right)
 		)
 		(uuid "e12ec3e8-0d5b-47b1-abb9-9b31a4bb451e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "USB2_N"
 		(shape bidirectional)
@@ -11215,6 +11528,17 @@
 			(justify left)
 		)
 		(uuid "f47ba0cc-ecae-4aef-a30d-acee22ce59db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "PCIE_CLK_P"
 		(shape output)
@@ -11226,6 +11550,17 @@
 			(justify right)
 		)
 		(uuid "fdd0a3ff-3d05-4dc5-8f2c-3aa967326c19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11293,6 +11628,14 @@
 		)
 		(pin "1"
 			(uuid "66734891-cd33-4205-a68e-7aa74d4b75f8")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11362,6 +11705,14 @@
 		(pin "1"
 			(uuid "bdb69042-8fa0-4d7e-be19-fed7218cdfd8")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11430,6 +11781,14 @@
 		(pin "1"
 			(uuid "dbe6edc1-ee1c-41ad-b94e-6a468b80b874")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11497,6 +11856,14 @@
 		)
 		(pin "1"
 			(uuid "20fac508-78eb-4aa5-add1-1566151feb66")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11685,6 +12052,14 @@
 		(pin "9"
 			(uuid "f0d59009-bdb6-4150-8249-d2a9c5928391")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11752,6 +12127,14 @@
 		)
 		(pin "1"
 			(uuid "57e128ae-5e07-4818-9f5a-1cee0e65c680")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11821,6 +12204,14 @@
 		(pin "1"
 			(uuid "8f0e1ea6-d278-4117-9e02-aaadcc59362e")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11889,6 +12280,14 @@
 		(pin "1"
 			(uuid "842c62a3-da79-4cc2-9eb8-0e81d553171d")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11956,6 +12355,14 @@
 		)
 		(pin "1"
 			(uuid "7fa098fb-b644-4e64-920e-8328b5d12f21")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12095,6 +12502,14 @@
 		(pin "2"
 			(uuid "9feb2246-afac-4ea1-a19b-0b21b94e2662")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -12232,6 +12647,14 @@
 		)
 		(pin "2"
 			(uuid "16b71e23-859c-4e16-8af1-5d30a5c2b726")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12420,6 +12843,14 @@
 		(pin "9"
 			(uuid "2d0a1cd4-a5be-46cc-a28f-17278e9b94e9")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x22_Female")
@@ -12607,6 +13038,14 @@
 		(pin "9"
 			(uuid "7dd46673-4551-4937-beee-2ea3f888f7bc")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x22_Female")
@@ -12793,6 +13232,14 @@
 		)
 		(pin "9"
 			(uuid "2bf34b7c-94ca-4ac8-94c5-6312536f342f")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "J16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12995,6 +13442,14 @@
 		(pin "SH1"
 			(uuid "25ada721-670a-4020-ae0b-77410c4e375a")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CM4IO:HDMI_A_1.4")
@@ -13196,6 +13651,14 @@
 		(pin "SH1"
 			(uuid "9b11964f-5943-49c9-bbf0-08d035779463")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -13334,6 +13797,14 @@
 		(pin "2"
 			(uuid "6995beeb-7854-4705-ae35-78174cb5e8c5")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -13471,6 +13942,14 @@
 		)
 		(pin "2"
 			(uuid "191379e4-86ba-4bf3-8d2d-4cd5385d32c3")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13611,6 +14090,14 @@
 		(pin "3"
 			(uuid "4969850b-ae26-4ccb-823e-8fd7d1c082fe")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13678,6 +14165,14 @@
 		)
 		(pin "1"
 			(uuid "286a9e39-c26f-49c3-809f-c04839a4ac04")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13747,6 +14242,14 @@
 		(pin "1"
 			(uuid "d92cfbfa-da4b-4f63-8ad6-7bb6977d4f44")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13814,6 +14317,14 @@
 		)
 		(pin "1"
 			(uuid "7b32ef33-8c7b-417f-9260-1a8773398f8f")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14532,7 +15043,13 @@
 		(pin "200"
 			(uuid "198a2a45-a86c-4371-8a75-c6e4c84fad3d")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "Module1")
+					(unit 2)
+				)
+			)
+		)
 	)
-
-	(no_connect (at 102.87 26.67) (uuid "559cacb4-6cdf-4d02-9247-f210a8d80416"))
 )

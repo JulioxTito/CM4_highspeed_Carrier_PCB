@@ -286,7 +286,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1175,7 +1175,7 @@
       {
         "filename": "CM4_Mini_PC.kicad_sch",
         "name": "CM4_Mini_PC",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
     "used_designators": "",
@@ -1184,31 +1184,31 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      ""
-    ],
-    [
-      "00000000-0000-0000-0000-00005e072e02",
-      "USB2-HUB"
-    ],
-    [
-      "00000000-0000-0000-0000-00005e328d89",
-      "RTC , Wakeup, FAN"
-    ],
-    [
-      "00000000-0000-0000-0000-00005cff70b1",
-      "CM4_HighSpeed"
-    ],
-    [
-      "00000000-0000-0000-0000-00005cff706a",
-      "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
-    ],
-    [
-      "00000000-0000-0000-0000-00005ed4bb5b",
-      "PCIe-connector"
+      "CM4_Mini_PC"
     ],
     [
       "00000000-0000-0000-0000-00005d31f999",
-      "PSUs"
+      "Power_Supply"
+    ],
+    [
+      "00000000-0000-0000-0000-00005e328d89",
+      "Real_Time_Clock"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cff70b1",
+      "CM4_HighSpeed_Video"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cff706a",
+      "CM4_Core_IO_Storage"
+    ],
+    [
+      "00000000-0000-0000-0000-00005e072e02",
+      "USB_Hub_Subsystem"
+    ],
+    [
+      "a0943e33-5217-4cb2-9cb6-2c232f98dc8e",
+      "M2_NVME_Storage"
     ]
   ],
   "text_variables": {},

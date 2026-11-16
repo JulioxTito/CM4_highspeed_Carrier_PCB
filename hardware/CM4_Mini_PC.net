@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\Julio\\Desktop\\KiCad Review folder\\CM4_Mini_PC\\hardware\\CM4_Mini_PC.kicad_sch")
-		(date "2026-11-15T00:41:32")
+		(date "2026-11-16T04:51:37")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
@@ -12696,6 +12696,900 @@
 				)
 			)
 		)
+		(comp
+			(ref "C70")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "081fe1d5-5806-4d54-a648-477b842be9ed")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C71")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "504ee079-4575-4242-8c6c-62d6818de11b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C72")
+			(value "10u")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "f0ceb349-d4dc-42a8-9c79-0f725acc4ccd")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C73")
+			(value "10u")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "5a29d63a-94bc-4b03-a803-1abc535d269a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C74")
+			(value "1u")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "d2cc8aaa-bed0-4cea-8f54-ebaf03582210")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C75")
+			(value "1u")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "0e7f14b3-299f-4a59-8a84-06fd96b56ad9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C76")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "5db96edc-4ec2-4a7d-82de-a04c5c8e6c60")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C77")
+			(value "100n")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "f4fb69dd-651d-46a6-8574-247c82e26aa7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "NVME_ACT")
+			(footprint "LED_SMD:LED_0603_1608Metric")
+			(fields
+				(field
+					(name "Footprint") "LED_SMD:LED_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "9c6cd64a-b7db-4356-bb19-c26eb2f638f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "H9")
+			(value "M2_SSD_Standoff")
+			(footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
+			(fields
+				(field
+					(name "Footprint") "MountingHole:MountingHole_2.2mm_M2_Pad")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Mechanical")
+				(part "MountingHole_Pad")
+				(description "Mounting Hole with connection")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "mounting hole")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "MountingHole*Pad*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "48a71fc3-2259-448a-b92d-ee997b2532b2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J12")
+			(value "M.2_Key-M_NVMe")
+			(footprint "Connector_PCBEdge:TE_M.2_M_2x38-1MP_P0.5mm")
+			(fields
+				(field
+					(name "Footprint") "Connector_PCBEdge:TE_M.2_M_2x38-1MP_P0.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "Bus_M.2_Socket_M")
+				(description "M.2 Socket 3 Mechanical Key M")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "M2 NGNF PCI-E")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "*M*2*M*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "e0fdf453-4757-4ace-a3bf-07eb80cc8f13")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "50")
+						)
+						(pin
+							(num "52")
+						)
+						(pin
+							(num "54")
+						)
+						(pin
+							(num "49")
+						)
+						(pin
+							(num "47")
+						)
+						(pin
+							(num "43")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "55")
+						)
+						(pin
+							(num "53")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "70")
+						)
+						(pin
+							(num "72")
+						)
+						(pin
+							(num "74")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "75")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "45")
+						)
+						(pin
+							(num "51")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "57")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "71")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "73")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "58")
+						)
+						(pin
+							(num "56")
+						)
+						(pin
+							(num "48")
+						)
+						(pin
+							(num "46")
+						)
+						(pin
+							(num "44")
+						)
+						(pin
+							(num "42")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "67")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "69")
+						)
+						(pin
+							(num "68")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R40")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "23089364-4ddc-44d1-8872-8264d6386cd7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R41")
+			(value "470R")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(fields
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Sheetname")
+				(value "M2_NVME_Storage")
+			)
+			(property
+				(name "Sheetfile")
+				(value "M2_NVME.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/M2_NVME_Storage/")
+				(tstamps "/a0943e33-5217-4cb2-9cb6-2c232f98dc8e/")
+			)
+			(tstamps "3aee9867-1944-4c84-b98e-74950ade69a1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
 	)
 	(groups)
 	(variants)
@@ -14575,6 +15469,365 @@
 		)
 		(libpart
 			(lib "Connector")
+			(part "Bus_M.2_Socket_M")
+			(description "M.2 Socket 3 Mechanical Key M")
+			(docs "https://web.archive.org/web/20200613074028/http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155")
+			(footprints
+				(fp "*M*2*M*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Bus_M.2_Socket_M")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "https://web.archive.org/web/20200613074028/http://read.pudn.com/downloads794/doc/project/3133918/PCIe_M.2_Electromechanical_Spec_Rev1.0_Final_11012013_RS_Clean.pdf#page=155")
+				(field
+					(name "Description") "M.2 Socket 3 Mechanical Key M")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "3.3V")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "PERn3")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "7")
+					(name "PERp3")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "9")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "DAS/~{DSS}/~{LED1}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "PETn3")
+					(type "output")
+				)
+				(pin
+					(num "12")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "PETp3")
+					(type "output")
+				)
+				(pin
+					(num "14")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "17")
+					(name "PERn2")
+					(type "input")
+				)
+				(pin
+					(num "18")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "PERp2")
+					(type "input")
+				)
+				(pin
+					(num "20")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "21")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "22")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "23")
+					(name "PETn2")
+					(type "output")
+				)
+				(pin
+					(num "24")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "25")
+					(name "PETp2")
+					(type "output")
+				)
+				(pin
+					(num "26")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "27")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "28")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "29")
+					(name "PERn1")
+					(type "input")
+				)
+				(pin
+					(num "30")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "31")
+					(name "PERp1")
+					(type "input")
+				)
+				(pin
+					(num "32")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "33")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "34")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "35")
+					(name "PETn1")
+					(type "output")
+				)
+				(pin
+					(num "36")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "37")
+					(name "PETp1")
+					(type "output")
+				)
+				(pin
+					(num "38")
+					(name "DEVSLP")
+					(type "output")
+				)
+				(pin
+					(num "39")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "40")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "41")
+					(name "PERn0/SATA-B+")
+					(type "input")
+				)
+				(pin
+					(num "42")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "43")
+					(name "PERp0/SATA-B-")
+					(type "input")
+				)
+				(pin
+					(num "44")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "45")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "46")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "47")
+					(name "PETn0/SATA-A-")
+					(type "output")
+				)
+				(pin
+					(num "48")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "49")
+					(name "PETp0/SATA-A+")
+					(type "output")
+				)
+				(pin
+					(num "50")
+					(name "~{PERST}")
+					(type "output")
+				)
+				(pin
+					(num "51")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "52")
+					(name "~{CLKREQ}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "53")
+					(name "REFCLKn")
+					(type "passive")
+				)
+				(pin
+					(num "54")
+					(name "~{PEWAKE}")
+					(type "bidirectional")
+				)
+				(pin
+					(num "55")
+					(name "REFCLKp")
+					(type "passive")
+				)
+				(pin
+					(num "56")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "57")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "58")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "67")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "68")
+					(name "SUSCLK")
+					(type "output")
+				)
+				(pin
+					(num "69")
+					(name "PEDET")
+					(type "passive")
+				)
+				(pin
+					(num "70")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "71")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "72")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "73")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "74")
+					(name "3.3V")
+					(type "passive")
+				)
+				(pin
+					(num "75")
+					(name "GND")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
 			(part "Conn_01x22_Female")
 			(description "Generic connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)")
 			(footprints
@@ -15928,6 +17181,35 @@
 			)
 		)
 		(libpart
+			(lib "Mechanical")
+			(part "MountingHole_Pad")
+			(description "Mounting Hole with connection")
+			(footprints
+				(fp "MountingHole*Pad*")
+			)
+			(fields
+				(field
+					(name "Reference") "H")
+				(field
+					(name "Value") "MountingHole_Pad")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Mounting Hole with connection")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
 			(lib "Timer_RTC")
 			(part "PCF8563T")
 			(description "Realtime Clock/Calendar I2C Interface, SOIC-8")
@@ -16159,6 +17441,36 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C72")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C73")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C74")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C75")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C76")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C77")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
 				(ref "D1")
 				(pin "2")
 				(pinfunction "A_2")
@@ -16173,6 +17485,60 @@
 			(node
 				(ref "D3")
 				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "12")
+				(pinfunction "3.3V_12")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "14")
+				(pinfunction "3.3V_14")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "16")
+				(pinfunction "3.3V_16")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "18")
+				(pinfunction "3.3V_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "2")
+				(pinfunction "3.3V_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J12")
+				(pin "4")
+				(pinfunction "3.3V_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "70")
+				(pinfunction "3.3V_70")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "72")
+				(pinfunction "3.3V_72")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "74")
+				(pinfunction "3.3V_74")
 				(pintype "passive")
 			)
 			(node
@@ -16236,6 +17602,16 @@
 			(node
 				(ref "R29")
 				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R40")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R41")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -19330,6 +20706,36 @@
 				(pintype "passive")
 			)
 			(node
+				(ref "C72")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C73")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C74")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C75")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C76")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C77")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
 				(ref "C8")
 				(pin "2")
 				(pintype "passive")
@@ -19337,6 +20743,12 @@
 			(node
 				(ref "C9")
 				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "H9")
+				(pin "1")
+				(pinfunction "1_1")
 				(pintype "passive")
 			)
 			(node
@@ -19409,6 +20821,96 @@
 				(ref "J11")
 				(pin "6")
 				(pinfunction "Shield_6")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J12")
+				(pin "15")
+				(pinfunction "GND_15")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "21")
+				(pinfunction "GND_21")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "27")
+				(pinfunction "GND_27")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "33")
+				(pinfunction "GND_33")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "39")
+				(pinfunction "GND_39")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "45")
+				(pinfunction "GND_45")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "51")
+				(pinfunction "GND_51")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "57")
+				(pinfunction "GND_57")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "69")
+				(pinfunction "PEDET_69")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "71")
+				(pinfunction "GND_71")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "73")
+				(pinfunction "GND_73")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "75")
+				(pinfunction "GND_75")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "9")
+				(pinfunction "GND_9")
 				(pintype "passive")
 			)
 			(node
@@ -20515,6 +22017,39 @@
 		)
 		(net
 			(code "153")
+			(name "Net-(D5-A)")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R41")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "154")
+			(name "Net-(D5-K)")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "10")
+				(pinfunction "DAS/~{DSS}/~{LED1}_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "155")
 			(name "Net-(J2-Pin_13)")
 			(class "Default")
 			(node
@@ -20530,7 +22065,7 @@
 			)
 		)
 		(net
-			(code "154")
+			(code "156")
 			(name "Net-(J7-DET_A)")
 			(class "Default")
 			(node
@@ -20546,7 +22081,7 @@
 			)
 		)
 		(net
-			(code "155")
+			(code "157")
 			(name "Net-(J7-DET_B)")
 			(class "Default")
 			(node
@@ -20562,7 +22097,7 @@
 			)
 		)
 		(net
-			(code "156")
+			(code "158")
 			(name "Net-(J11-VBUS)")
 			(class "Default")
 			(node
@@ -20578,7 +22113,39 @@
 			)
 		)
 		(net
-			(code "157")
+			(code "159")
+			(name "Net-(J12-PERn0{slash}SATA-B+)")
+			(class "Default")
+			(node
+				(ref "C71")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "41")
+				(pinfunction "PERn0/SATA-B+_41")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "160")
+			(name "Net-(J12-PERp0{slash}SATA-B-)")
+			(class "Default")
+			(node
+				(ref "C70")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J12")
+				(pin "43")
+				(pinfunction "PERp0/SATA-B-_43")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "161")
 			(name "Net-(J17-Pin_3)")
 			(class "Default")
 			(node
@@ -20600,7 +22167,7 @@
 			)
 		)
 		(net
-			(code "158")
+			(code "162")
 			(name "Net-(J17-Pin_4)")
 			(class "Default")
 			(node
@@ -20617,7 +22184,7 @@
 			)
 		)
 		(net
-			(code "159")
+			(code "163")
 			(name "Net-(Module1A-PI_nLED_Activity)")
 			(class "Default")
 			(node
@@ -20633,7 +22200,7 @@
 			)
 		)
 		(net
-			(code "160")
+			(code "164")
 			(name "Net-(Q1-D)")
 			(class "Default")
 			(node
@@ -20654,7 +22221,7 @@
 			)
 		)
 		(net
-			(code "161")
+			(code "165")
 			(name "Net-(R10-Pad2)")
 			(class "Default")
 			(node
@@ -20669,7 +22236,7 @@
 			)
 		)
 		(net
-			(code "162")
+			(code "166")
 			(name "Net-(U3-LEDG_K)")
 			(class "Default")
 			(node
@@ -20685,7 +22252,7 @@
 			)
 		)
 		(net
-			(code "163")
+			(code "167")
 			(name "Net-(U3-LEDY_K)")
 			(class "Default")
 			(node
@@ -20701,7 +22268,7 @@
 			)
 		)
 		(net
-			(code "164")
+			(code "168")
 			(name "Net-(U4-D1+)")
 			(class "Default")
 			(node
@@ -20717,7 +22284,7 @@
 			)
 		)
 		(net
-			(code "165")
+			(code "169")
 			(name "Net-(U4-D1-)")
 			(class "Default")
 			(node
@@ -20733,7 +22300,7 @@
 			)
 		)
 		(net
-			(code "166")
+			(code "170")
 			(name "Net-(U6-HS_IND{slash}CFG_SEL1)")
 			(class "Default")
 			(node
@@ -20749,7 +22316,7 @@
 			)
 		)
 		(net
-			(code "167")
+			(code "171")
 			(name "Net-(U6-RBIAS)")
 			(class "Default")
 			(node
@@ -20765,7 +22332,7 @@
 			)
 		)
 		(net
-			(code "168")
+			(code "172")
 			(name "Net-(U6-SCL{slash}SMBCLK{slash}CFG_SEL0)")
 			(class "Default")
 			(node
@@ -20781,7 +22348,7 @@
 			)
 		)
 		(net
-			(code "169")
+			(code "173")
 			(name "Net-(U6-SDA{slash}SMBDATA{slash}NON_REM1)")
 			(class "Default")
 			(node
@@ -20797,7 +22364,7 @@
 			)
 		)
 		(net
-			(code "170")
+			(code "174")
 			(name "Net-(U6-SUSP_IND{slash}LOCAL_PWR{slash}NON_REM0)")
 			(class "Default")
 			(node
@@ -20813,7 +22380,7 @@
 			)
 		)
 		(net
-			(code "171")
+			(code "175")
 			(name "Net-(U6-XTALIN{slash}CLKIN)")
 			(class "Default")
 			(node
@@ -20835,7 +22402,7 @@
 			)
 		)
 		(net
-			(code "172")
+			(code "176")
 			(name "Net-(U6-XTALOUT)")
 			(class "Default")
 			(node
@@ -20857,7 +22424,7 @@
 			)
 		)
 		(net
-			(code "173")
+			(code "177")
 			(name "Net-(U7-ILIM)")
 			(class "Default")
 			(node
@@ -20873,7 +22440,7 @@
 			)
 		)
 		(net
-			(code "174")
+			(code "178")
 			(name "Net-(U8-OSCI)")
 			(class "Default")
 			(node
@@ -20890,7 +22457,7 @@
 			)
 		)
 		(net
-			(code "175")
+			(code "179")
 			(name "Net-(U8-OSCO)")
 			(class "Default")
 			(node
@@ -20907,7 +22474,7 @@
 			)
 		)
 		(net
-			(code "176")
+			(code "180")
 			(name "Net-(U8-VDD)")
 			(class "Default")
 			(node
@@ -20928,7 +22495,7 @@
 			)
 		)
 		(net
-			(code "177")
+			(code "181")
 			(name "Net-(U16-BST)")
 			(class "Default")
 			(node
@@ -20944,7 +22511,7 @@
 			)
 		)
 		(net
-			(code "178")
+			(code "182")
 			(name "Net-(U16-COMP)")
 			(class "Default")
 			(node
@@ -20965,7 +22532,7 @@
 			)
 		)
 		(net
-			(code "179")
+			(code "183")
 			(name "Net-(U16-FB)")
 			(class "Default")
 			(node
@@ -20991,7 +22558,7 @@
 			)
 		)
 		(net
-			(code "180")
+			(code "184")
 			(name "Net-(U16-SS)")
 			(class "Default")
 			(node
@@ -21007,7 +22574,7 @@
 			)
 		)
 		(net
-			(code "181")
+			(code "185")
 			(name "Net-(U16-SW)")
 			(class "Default")
 			(node
@@ -21029,9 +22596,15 @@
 			)
 		)
 		(net
-			(code "182")
+			(code "186")
 			(name "PCIE_CLK_N")
 			(class "Default")
+			(node
+				(ref "J12")
+				(pin "53")
+				(pinfunction "REFCLKn_53")
+				(pintype "passive")
+			)
 			(node
 				(ref "Module1")
 				(pin "112")
@@ -21040,9 +22613,15 @@
 			)
 		)
 		(net
-			(code "183")
+			(code "187")
 			(name "PCIE_CLK_P")
 			(class "Default")
+			(node
+				(ref "J12")
+				(pin "55")
+				(pinfunction "REFCLKp_55")
+				(pintype "passive")
+			)
 			(node
 				(ref "Module1")
 				(pin "110")
@@ -21051,42 +22630,70 @@
 			)
 		)
 		(net
-			(code "184")
+			(code "188")
 			(name "PCIE_CLK_nREQ")
 			(class "Default")
+			(node
+				(ref "J12")
+				(pin "52")
+				(pinfunction "~{CLKREQ}_52")
+				(pintype "bidirectional")
+			)
 			(node
 				(ref "Module1")
 				(pin "102")
 				(pinfunction "PCIe_CLK_nREQ_102")
-				(pintype "input+no_connect")
+				(pintype "input")
+			)
+			(node
+				(ref "R40")
+				(pin "2")
+				(pintype "passive")
 			)
 		)
 		(net
-			(code "185")
+			(code "189")
 			(name "PCIE_RX_N")
 			(class "Default")
+			(node
+				(ref "J12")
+				(pin "47")
+				(pinfunction "PETn0/SATA-A-_47")
+				(pintype "output")
+			)
 			(node
 				(ref "Module1")
 				(pin "118")
 				(pinfunction "PCIe_RX_N_118")
-				(pintype "input+no_connect")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "186")
+			(code "190")
 			(name "PCIE_RX_P")
 			(class "Default")
+			(node
+				(ref "J12")
+				(pin "49")
+				(pinfunction "PETp0/SATA-A+_49")
+				(pintype "output")
+			)
 			(node
 				(ref "Module1")
 				(pin "116")
 				(pinfunction "PCIe_RX_P_116")
-				(pintype "input+no_connect")
+				(pintype "input")
 			)
 		)
 		(net
-			(code "187")
+			(code "191")
 			(name "PCIE_TX_N")
 			(class "Default")
+			(node
+				(ref "C71")
+				(pin "1")
+				(pintype "passive")
+			)
 			(node
 				(ref "Module1")
 				(pin "124")
@@ -21095,9 +22702,14 @@
 			)
 		)
 		(net
-			(code "188")
+			(code "192")
 			(name "PCIE_TX_P")
 			(class "Default")
+			(node
+				(ref "C70")
+				(pin "1")
+				(pintype "passive")
+			)
 			(node
 				(ref "Module1")
 				(pin "122")
@@ -21106,9 +22718,15 @@
 			)
 		)
 		(net
-			(code "189")
+			(code "193")
 			(name "PCIE_nRST")
 			(class "Default")
+			(node
+				(ref "J12")
+				(pin "50")
+				(pinfunction "~{PERST}_50")
+				(pintype "output")
+			)
 			(node
 				(ref "Module1")
 				(pin "109")
@@ -21117,7 +22735,7 @@
 			)
 		)
 		(net
-			(code "190")
+			(code "194")
 			(name "SCL")
 			(class "Default")
 			(node
@@ -21134,7 +22752,7 @@
 			)
 		)
 		(net
-			(code "191")
+			(code "195")
 			(name "SCL0")
 			(class "Default")
 			(node
@@ -21157,7 +22775,7 @@
 			)
 		)
 		(net
-			(code "192")
+			(code "196")
 			(name "SDA")
 			(class "Default")
 			(node
@@ -21174,7 +22792,7 @@
 			)
 		)
 		(net
-			(code "193")
+			(code "197")
 			(name "SDA0")
 			(class "Default")
 			(node
@@ -21197,7 +22815,7 @@
 			)
 		)
 		(net
-			(code "194")
+			(code "198")
 			(name "TV_OUT")
 			(class "Default")
 			(node
@@ -21214,7 +22832,7 @@
 			)
 		)
 		(net
-			(code "195")
+			(code "199")
 			(name "USB2_N")
 			(class "Default")
 			(node
@@ -21231,7 +22849,7 @@
 			)
 		)
 		(net
-			(code "196")
+			(code "200")
 			(name "USB2_P")
 			(class "Default")
 			(node
@@ -21248,7 +22866,7 @@
 			)
 		)
 		(net
-			(code "197")
+			(code "201")
 			(name "USBOTG")
 			(class "Default")
 			(node
@@ -21269,7 +22887,7 @@
 			)
 		)
 		(net
-			(code "198")
+			(code "202")
 			(name "USBOTG_ID")
 			(class "Default")
 			(node
@@ -21280,7 +22898,7 @@
 			)
 		)
 		(net
-			(code "199")
+			(code "203")
 			(name "nEXTRST")
 			(class "Default")
 			(node
@@ -21297,7 +22915,7 @@
 			)
 		)
 		(net
-			(code "200")
+			(code "204")
 			(name "unconnected-(J4-Pin_11-Pad11)")
 			(class "Default")
 			(node
@@ -21308,7 +22926,7 @@
 			)
 		)
 		(net
-			(code "201")
+			(code "205")
 			(name "unconnected-(J4-Pin_12-Pad12)")
 			(class "Default")
 			(node
@@ -21319,7 +22937,7 @@
 			)
 		)
 		(net
-			(code "202")
+			(code "206")
 			(name "unconnected-(J4-Pin_14-Pad14)")
 			(class "Default")
 			(node
@@ -21330,7 +22948,7 @@
 			)
 		)
 		(net
-			(code "203")
+			(code "207")
 			(name "unconnected-(J4-Pin_15-Pad15)")
 			(class "Default")
 			(node
@@ -21341,7 +22959,7 @@
 			)
 		)
 		(net
-			(code "204")
+			(code "208")
 			(name "unconnected-(J4-Pin_18-Pad18)")
 			(class "Default")
 			(node
@@ -21352,7 +22970,7 @@
 			)
 		)
 		(net
-			(code "205")
+			(code "209")
 			(name "unconnected-(J5-Pin_18-Pad18)")
 			(class "Default")
 			(node
@@ -21363,7 +22981,7 @@
 			)
 		)
 		(net
-			(code "206")
+			(code "210")
 			(name "unconnected-(J10-UTILITY{slash}HEAC+-Pad14)")
 			(class "Default")
 			(node
@@ -21374,7 +22992,7 @@
 			)
 		)
 		(net
-			(code "207")
+			(code "211")
 			(name "unconnected-(J11-ID-Pad4)")
 			(class "Default")
 			(node
@@ -21385,7 +23003,381 @@
 			)
 		)
 		(net
-			(code "208")
+			(code "212")
+			(name "unconnected-(J12-DEVSLP-Pad38)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "38")
+				(pinfunction "DEVSLP_38")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "213")
+			(name "unconnected-(J12-NC-Pad6)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "6")
+				(pinfunction "NC_6")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "214")
+			(name "unconnected-(J12-NC-Pad8)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "8")
+				(pinfunction "NC_8")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "215")
+			(name "unconnected-(J12-NC-Pad20)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "20")
+				(pinfunction "NC_20")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "216")
+			(name "unconnected-(J12-NC-Pad22)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "22")
+				(pinfunction "NC_22")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "217")
+			(name "unconnected-(J12-NC-Pad24)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "24")
+				(pinfunction "NC_24")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "218")
+			(name "unconnected-(J12-NC-Pad26)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "26")
+				(pinfunction "NC_26")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "219")
+			(name "unconnected-(J12-NC-Pad28)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "28")
+				(pinfunction "NC_28")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "220")
+			(name "unconnected-(J12-NC-Pad30)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "30")
+				(pinfunction "NC_30")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "221")
+			(name "unconnected-(J12-NC-Pad32)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "32")
+				(pinfunction "NC_32")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "222")
+			(name "unconnected-(J12-NC-Pad34)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "34")
+				(pinfunction "NC_34")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "223")
+			(name "unconnected-(J12-NC-Pad36)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "36")
+				(pinfunction "NC_36")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "224")
+			(name "unconnected-(J12-NC-Pad40)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "40")
+				(pinfunction "NC_40")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "225")
+			(name "unconnected-(J12-NC-Pad42)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "42")
+				(pinfunction "NC_42")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "226")
+			(name "unconnected-(J12-NC-Pad44)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "44")
+				(pinfunction "NC_44")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "227")
+			(name "unconnected-(J12-NC-Pad46)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "46")
+				(pinfunction "NC_46")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "228")
+			(name "unconnected-(J12-NC-Pad48)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "48")
+				(pinfunction "NC_48")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "229")
+			(name "unconnected-(J12-NC-Pad56)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "56")
+				(pinfunction "NC_56")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "230")
+			(name "unconnected-(J12-NC-Pad58)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "58")
+				(pinfunction "NC_58")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "231")
+			(name "unconnected-(J12-NC-Pad67)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "67")
+				(pinfunction "NC_67")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "232")
+			(name "unconnected-(J12-PERn1-Pad29)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "29")
+				(pinfunction "PERn1_29")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "233")
+			(name "unconnected-(J12-PERn2-Pad17)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "17")
+				(pinfunction "PERn2_17")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "234")
+			(name "unconnected-(J12-PERn3-Pad5)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "5")
+				(pinfunction "PERn3_5")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "235")
+			(name "unconnected-(J12-PERp1-Pad31)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "31")
+				(pinfunction "PERp1_31")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "236")
+			(name "unconnected-(J12-PERp2-Pad19)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "19")
+				(pinfunction "PERp2_19")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "237")
+			(name "unconnected-(J12-PERp3-Pad7)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "7")
+				(pinfunction "PERp3_7")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "238")
+			(name "unconnected-(J12-PETn1-Pad35)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "35")
+				(pinfunction "PETn1_35")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "239")
+			(name "unconnected-(J12-PETn2-Pad23)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "23")
+				(pinfunction "PETn2_23")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "240")
+			(name "unconnected-(J12-PETn3-Pad11)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "11")
+				(pinfunction "PETn3_11")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "241")
+			(name "unconnected-(J12-PETp1-Pad37)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "37")
+				(pinfunction "PETp1_37")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "242")
+			(name "unconnected-(J12-PETp2-Pad25)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "25")
+				(pinfunction "PETp2_25")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "243")
+			(name "unconnected-(J12-PETp3-Pad13)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "13")
+				(pinfunction "PETp3_13")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "244")
+			(name "unconnected-(J12-SUSCLK-Pad68)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "68")
+				(pinfunction "SUSCLK_68")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "245")
+			(name "unconnected-(J12-~{PEWAKE}-Pad54)")
+			(class "Default")
+			(node
+				(ref "J12")
+				(pin "54")
+				(pinfunction "~{PEWAKE}_54")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "246")
 			(name "unconnected-(J14-Pin_9-Pad9)")
 			(class "Default")
 			(node
@@ -21396,7 +23388,7 @@
 			)
 		)
 		(net
-			(code "209")
+			(code "247")
 			(name "unconnected-(J14-Pin_10-Pad10)")
 			(class "Default")
 			(node
@@ -21407,7 +23399,7 @@
 			)
 		)
 		(net
-			(code "210")
+			(code "248")
 			(name "unconnected-(J15-Pin_11-Pad11)")
 			(class "Default")
 			(node
@@ -21418,7 +23410,7 @@
 			)
 		)
 		(net
-			(code "211")
+			(code "249")
 			(name "unconnected-(J15-Pin_12-Pad12)")
 			(class "Default")
 			(node
@@ -21429,7 +23421,7 @@
 			)
 		)
 		(net
-			(code "212")
+			(code "250")
 			(name "unconnected-(J15-Pin_14-Pad14)")
 			(class "Default")
 			(node
@@ -21440,7 +23432,7 @@
 			)
 		)
 		(net
-			(code "213")
+			(code "251")
 			(name "unconnected-(J15-Pin_15-Pad15)")
 			(class "Default")
 			(node
@@ -21451,7 +23443,7 @@
 			)
 		)
 		(net
-			(code "214")
+			(code "252")
 			(name "unconnected-(J15-Pin_17-Pad17)")
 			(class "Default")
 			(node
@@ -21462,7 +23454,7 @@
 			)
 		)
 		(net
-			(code "215")
+			(code "253")
 			(name "unconnected-(J15-Pin_18-Pad18)")
 			(class "Default")
 			(node
@@ -21473,7 +23465,7 @@
 			)
 		)
 		(net
-			(code "216")
+			(code "254")
 			(name "unconnected-(J16-Pin_17-Pad17)")
 			(class "Default")
 			(node
@@ -21484,7 +23476,7 @@
 			)
 		)
 		(net
-			(code "217")
+			(code "255")
 			(name "unconnected-(J16-Pin_18-Pad18)")
 			(class "Default")
 			(node
@@ -21495,7 +23487,7 @@
 			)
 		)
 		(net
-			(code "218")
+			(code "256")
 			(name "unconnected-(J22-UTILITY{slash}HEAC+-Pad14)")
 			(class "Default")
 			(node
@@ -21506,7 +23498,7 @@
 			)
 		)
 		(net
-			(code "219")
+			(code "257")
 			(name "unconnected-(Module1A-Ethernet_nLED1(3.3v)-Pad19)")
 			(class "Default")
 			(node
@@ -21517,7 +23509,7 @@
 			)
 		)
 		(net
-			(code "220")
+			(code "258")
 			(name "unconnected-(Module1A-SD_DAT4-Pad68)")
 			(class "Default")
 			(node
@@ -21528,7 +23520,7 @@
 			)
 		)
 		(net
-			(code "221")
+			(code "259")
 			(name "unconnected-(Module1A-SD_DAT5-Pad64)")
 			(class "Default")
 			(node
@@ -21539,7 +23531,7 @@
 			)
 		)
 		(net
-			(code "222")
+			(code "260")
 			(name "unconnected-(Module1A-SD_DAT6-Pad72)")
 			(class "Default")
 			(node
@@ -21550,7 +23542,7 @@
 			)
 		)
 		(net
-			(code "223")
+			(code "261")
 			(name "unconnected-(Module1A-SD_DAT7-Pad70)")
 			(class "Default")
 			(node
@@ -21561,7 +23553,7 @@
 			)
 		)
 		(net
-			(code "224")
+			(code "262")
 			(name "unconnected-(Module1A-SD_VDD_Override-Pad73)")
 			(class "Default")
 			(node
@@ -21572,7 +23564,7 @@
 			)
 		)
 		(net
-			(code "225")
+			(code "263")
 			(name "unconnected-(Module1B-Reserved-Pad104)")
 			(class "Default")
 			(node
@@ -21583,7 +23575,7 @@
 			)
 		)
 		(net
-			(code "226")
+			(code "264")
 			(name "unconnected-(Module1B-Reserved-Pad106)")
 			(class "Default")
 			(node
@@ -21594,7 +23586,7 @@
 			)
 		)
 		(net
-			(code "227")
+			(code "265")
 			(name "unconnected-(U6-CRFILT-Pad14)")
 			(class "Default")
 			(node
@@ -21605,7 +23597,7 @@
 			)
 		)
 		(net
-			(code "228")
+			(code "266")
 			(name "unconnected-(U6-PLLFILT-Pad34)")
 			(class "Default")
 			(node
@@ -21616,7 +23608,7 @@
 			)
 		)
 		(net
-			(code "229")
+			(code "267")
 			(name "unconnected-(U6-PRTPWR2{slash}BC_EN2-Pad16)")
 			(class "Default")
 			(node
@@ -21627,7 +23619,7 @@
 			)
 		)
 		(net
-			(code "230")
+			(code "268")
 			(name "unconnected-(U6-PRTPWR3{slash}BC_EN3-Pad18)")
 			(class "Default")
 			(node
@@ -21638,7 +23630,7 @@
 			)
 		)
 		(net
-			(code "231")
+			(code "269")
 			(name "unconnected-(U6-PRTPWR4{slash}BC_EN4-Pad20)")
 			(class "Default")
 			(node
@@ -21649,7 +23641,7 @@
 			)
 		)
 		(net
-			(code "232")
+			(code "270")
 			(name "unconnected-(U6-TEST-Pad11)")
 			(class "Default")
 			(node
@@ -21660,7 +23652,7 @@
 			)
 		)
 		(net
-			(code "233")
+			(code "271")
 			(name "unconnected-(U8-CLKO-Pad7)")
 			(class "Default")
 			(node
@@ -21671,7 +23663,7 @@
 			)
 		)
 		(net
-			(code "234")
+			(code "272")
 			(name "unconnected-(U11-CLK-Pad7)")
 			(class "Default")
 			(node
@@ -21682,7 +23674,7 @@
 			)
 		)
 		(net
-			(code "235")
+			(code "273")
 			(name "unconnected-(U11-nALERT-Pad8)")
 			(class "Default")
 			(node
@@ -21693,7 +23685,7 @@
 			)
 		)
 		(net
-			(code "236")
+			(code "274")
 			(name "unconnected-(U18-nFLG-Pad3)")
 			(class "Default")
 			(node

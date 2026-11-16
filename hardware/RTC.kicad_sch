@@ -5,23 +5,12 @@
 	(uuid "92d938cc-f8b1-437d-8914-3d97a0938f67")
 	(paper "A4")
 	(title_block
-		(title "Compute Module 4 IO Board - RTC - FAN")
-		(rev "1")
-		(company "© 2020-2022 Raspberry Pi Ltd (formerly Raspberry Pi (Trading) Ltd.)")
-		(comment 1 "www.raspberrypi.com")
+		(title "CM4 Mini PC - Real-Time Clock & Power Management")
+		(rev "1.0")
+		(company "Designed by Julio Tito")
+		(comment 1 "Custom 4-Layer High-Speed Carrier Board")
 	)
 	(lib_symbols
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin power_out line (at 0 0 90) (length 0) hide (name "pwr" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))
-			(property "Reference" "#FLG" (at 0 1.905 0) (effects (font (size 1.27 1.27)) hide))
-			(property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27))))
-			(property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-			(property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-			(symbol "PWR_FLAG_0_1"
-				(polyline (pts (xy 0 0) (xy 0 1.27) (xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27) (xy 0 1.27)) (stroke (width 0) (type default)) (fill (type outline)))
-			)
-		)
 		(symbol "CM4IO:74LVC1G07_copy"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1993,6 +1982,104 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.27 1.27) (xy 0 2.54) (xy 1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "RTC alarms can be used to wake up the Compute module\nNB an Alarm triggering while already awake will cause a reset \nThis can be used as a watchdog reset "
 		(exclude_from_sim no)
@@ -2205,7 +2292,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 125.73) (xy 144.78 125.73)
+			(xy 104.14 125.73) (xy 144.78 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2252,6 +2339,16 @@
 			(type dash)
 		)
 		(uuid "337d1242-91ab-4446-8b9e-7609c6a49e3c")
+	)
+	(wire
+		(pts
+			(xy 111.76 53.34) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "33ec11d5-eba9-42d6-affc-7924804e93ee")
 	)
 	(wire
 		(pts
@@ -2375,6 +2472,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5fe169d5-0b97-41dc-82ce-c0d12beb8726")
+	)
+	(wire
+		(pts
 			(xy 213.36 49.53) (xy 227.33 49.53)
 		)
 		(stroke
@@ -2425,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 50.8) (xy 101.6 50.8)
+			(xy 111.76 48.26) (xy 109.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2525,6 +2632,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 54.61) (xy 111.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ab2ba6ba-a6e9-47e4-9a5b-f5c6db312694")
+	)
+	(wire
+		(pts
 			(xy 138.43 140.97) (xy 144.78 140.97)
 		)
 		(stroke
@@ -2542,6 +2659,16 @@
 			(type solid)
 		)
 		(uuid "acfcaba7-a8b8-4c21-a793-d3e0373f34dc")
+	)
+	(wire
+		(pts
+			(xy 109.22 48.26) (xy 109.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "adc6ab72-a92e-443a-9e6d-f540972cfdee")
 	)
 	(wire
 		(pts
@@ -2605,7 +2732,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 53.34) (xy 101.6 53.34)
+			(xy 113.03 54.61) (xy 111.76 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2853,10 +2980,21 @@
 			(justify right)
 		)
 		(uuid "567a04d6-5dce-4e5f-9e8e-f34010ecea5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "+3.3v"
 		(shape input)
-		(at 102.87 125.73 180)
+		(at 104.14 125.73 180)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -2864,6 +3002,17 @@
 			(justify right)
 		)
 		(uuid "57121f1d-c971-4830-b974-00f7d706f0c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "+12v"
 		(shape input)
@@ -2875,10 +3024,21 @@
 			(justify right)
 		)
 		(uuid "ea8efd53-9e19-4e37-86f5-e6c0c681f735")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 109.22 50.8 0)
+		(at 111.76 48.26 0)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -2886,10 +3046,21 @@
 			(justify left)
 		)
 		(uuid "ec13b96e-bc69-4de2-80ef-a515cc44afb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.76 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 109.22 53.34 0)
+		(at 113.03 54.61 0)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -2897,6 +3068,17 @@
 			(justify left)
 		)
 		(uuid "f11a78b7-152e-46cf-81d1-bc8194db05a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "GLOBAL_EN"
 		(shape output)
@@ -2908,6 +3090,17 @@
 			(justify left)
 		)
 		(uuid "f413d088-6fb9-4a8a-88fd-666ff68b7fdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.73 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CM4IO:EMC2301")
@@ -3051,6 +3244,14 @@
 		(pin "8"
 			(uuid "741561bb-6157-4c58-bb00-0f2a32b21238")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3189,6 +3390,14 @@
 		(pin "2"
 			(uuid "0d1c133a-5b0b-4fe0-b915-2f72b13b37e9")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3256,6 +3465,14 @@
 		)
 		(pin "1"
 			(uuid "7308e13a-4809-4e8e-af65-9905819aa376")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3390,6 +3607,14 @@
 		(pin "4"
 			(uuid "41ef6d8e-078c-46e5-a743-15f86f94b1c5")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3515,6 +3740,14 @@
 		(pin "2"
 			(uuid "969d876f-dc87-40bf-9e96-03cbb9ea5e82")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3583,6 +3816,14 @@
 		(pin "1"
 			(uuid "ec7073f7-f754-4ee6-a977-3d11d16480f8")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3650,6 +3891,14 @@
 		)
 		(pin "1"
 			(uuid "669e2f76-dce7-4b88-b383-d3587e6cc0cc")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3778,6 +4027,14 @@
 		(pin "2"
 			(uuid "42b7a68a-3837-4773-af68-a35059da48c3")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3845,6 +4102,14 @@
 		)
 		(pin "1"
 			(uuid "6428332e-b689-4aa8-86bb-3bee31b6f177")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3977,6 +4242,14 @@
 		(pin "5"
 			(uuid "c546008e-7661-419e-94b3-0bbb9fd14ec8")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4101,6 +4374,14 @@
 		)
 		(pin "2"
 			(uuid "a5c35670-98af-44c6-a3f4-bbad7ffecfd3")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4227,6 +4508,14 @@
 		(pin "2"
 			(uuid "cab0d0a9-e089-4f0b-8483-22b4e0addcae")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4294,6 +4583,14 @@
 		)
 		(pin "1"
 			(uuid "419715bf-ffaa-4f14-ba39-b7cca3633324")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4433,6 +4730,14 @@
 		(pin "2"
 			(uuid "5aa0e472-160b-49ac-864f-0fa7cd9cf9b0")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4571,6 +4876,14 @@
 		(pin "2"
 			(uuid "d66c8b0e-b6b3-43ea-8c6d-9724edcc57d6")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4638,6 +4951,14 @@
 		)
 		(pin "1"
 			(uuid "b79d8d99-88b5-4d84-a010-b6d768d67ec8")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4707,6 +5028,14 @@
 		(pin "1"
 			(uuid "f630bdcd-b048-45d2-91a0-928349b89dad")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Timer_RTC:PCF8563T")
@@ -4720,7 +5049,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e8dc781")
 		(property "Reference" "U8"
-			(at 91.44 41.1734 0)
+			(at 82.296 43.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4730,7 +5059,7 @@
 			)
 		)
 		(property "Value" "PCF85063AT/AAZ"
-			(at 91.44 43.4848 0)
+			(at 109.474 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4850,6 +5179,14 @@
 		(pin "8"
 			(uuid "7be13a36-eb8e-440f-aaac-2fd6665d9f61")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:Crystal_Small")
@@ -4954,6 +5291,14 @@
 		)
 		(pin "2"
 			(uuid "1ec648ca-df29-4910-86ed-6f48e345dbdb")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5086,6 +5431,88 @@
 		(pin "3"
 			(uuid "7cbc8c8d-fbc1-4902-ac93-6c241131aada")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 91.44 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b633b154-9bc4-4229-b421-86b76f3f529b")
+		(property "Reference" "#FLG04"
+			(at 91.44 43.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 91.44 41.402 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cdf0c177-2205-4796-b3d9-8cdf6f22283a")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5153,6 +5580,14 @@
 		)
 		(pin "1"
 			(uuid "782e74f8-8e76-4e6f-bfec-df9b9d96b19d")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5292,12 +5727,13 @@
 		(pin "2"
 			(uuid "3b450865-b2ef-4d25-9b34-4d42975b5e24")
 		)
-	)
-	(symbol (lib_id "power:PWR_FLAG") (at 91.44 45.72 0) (unit 1)
-		(in_bom yes) (on_board yes)
-		(uuid "b633b154-9bc4-4229-b421-86b76f3f529b")
-		(property "Reference" "#FLG04" (at 91.44 43.72 0) (effects (font (size 1.27 1.27)) hide))
-		(property "Value" "PWR_FLAG" (at 91.44 41.72 0) (effects (font (size 1.27 1.27))))
-		(pin "1" (uuid "cdf0c177-2205-4796-b3d9-8cdf6f22283a"))
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005e328d89"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

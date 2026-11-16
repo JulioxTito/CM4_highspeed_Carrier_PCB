@@ -5,10 +5,10 @@
 	(uuid "ec53b93c-c93c-4a00-b315-00a9db4c857c")
 	(paper "A4")
 	(title_block
-		(title "Compute Module 4 IO Board - GPIO - Ethernet")
-		(rev "1")
-		(company "© 2020-2022 Raspberry Pi Ltd (formerly Raspberry Pi (Trading) Ltd.)")
-		(comment 1 "www.raspberrypi.com")
+		(title "CM4 Mini PC - Core I/O, Ethernet & MicroSD")
+		(rev "1.0")
+		(company "Designed by Julio Tito")
+		(comment 1 "Custom 4-Layer High-Speed Carrier Board")
 	)
 	(lib_symbols
 		(symbol "CM4IO:74LVC1G07_copy"
@@ -15031,6 +15031,17 @@
 			(justify left)
 		)
 		(uuid "04f09747-54bd-4ccb-936d-3baa80652154")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.046 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "GLOBAL_EN"
 		(shape input)
@@ -15042,6 +15053,17 @@
 			(justify left)
 		)
 		(uuid "09986a87-49c2-4491-b1b1-87dfad52ab95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.586 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "ID_SC"
 		(shape output)
@@ -15053,6 +15075,17 @@
 			(justify left)
 		)
 		(uuid "0e37a1ae-bf06-4c70-ae4c-e7cee553b0b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.046 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "TV_OUT"
 		(shape input)
@@ -15064,6 +15097,17 @@
 			(justify right)
 		)
 		(uuid "ba033dd1-a5e2-4136-b71b-d0a1cef6fc1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.88 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "SCL0"
 		(shape output)
@@ -15075,6 +15119,17 @@
 			(justify right)
 		)
 		(uuid "cca964ad-d64e-4c84-a05a-4b48498db544")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.146 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "ID_SD"
 		(shape output)
@@ -15086,6 +15141,17 @@
 			(justify right)
 		)
 		(uuid "d1cf4093-87af-4b49-8879-3ac410551bfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.146 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "GPIO_VREF"
 		(shape output)
@@ -15097,6 +15163,17 @@
 			(justify right)
 		)
 		(uuid "d3262cbf-1f75-4047-bb3d-01b21ddbafa6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.146 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "SDA0"
 		(shape output)
@@ -15108,6 +15185,17 @@
 			(justify right)
 		)
 		(uuid "d44cf594-638f-424d-936a-6e9ed7c314ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.146 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "CAM_GPIO"
 		(shape output)
@@ -15119,6 +15207,17 @@
 			(justify left)
 		)
 		(uuid "e8c88107-4c00-44bc-b07f-5c8bcb21af78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.586 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "nEXTRST"
 		(shape output)
@@ -15130,6 +15229,17 @@
 			(justify right)
 		)
 		(uuid "ebcfdf36-110d-4f79-9de0-e4fcd76c1d6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.146 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(global_label "+3.3v"
 		(shape output)
@@ -15141,6 +15251,17 @@
 			(justify right)
 		)
 		(uuid "f90672d0-2ca8-4eaf-98ba-17042306fced")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.146 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CM4IO:74LVC1G07_copy")
@@ -15274,6 +15395,14 @@
 		(pin "5"
 			(uuid "849f4f89-7de2-4aea-bdf4-77006099f5f6")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CM4IO:74LVC1G07_copy")
@@ -15405,6 +15534,14 @@
 		(pin "5"
 			(uuid "5a9cc8dc-b899-4016-9873-a99ec930a962")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -15472,6 +15609,14 @@
 		)
 		(pin "1"
 			(uuid "f573056c-87a1-403e-987f-f1dc1f10bd0b")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15618,6 +15763,14 @@
 		(pin "5"
 			(uuid "c2f385f2-7a78-4f82-b8fd-1151e835fc14")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -15685,6 +15838,14 @@
 		)
 		(pin "1"
 			(uuid "8a2747cd-9545-4996-b99f-a27623db4e36")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16405,6 +16566,14 @@
 		(pin "200"
 			(uuid "a1b28347-8609-4986-bd7e-b27342e92b79")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "Module1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "CM4IO:MagJack-A70-112-331N126")
@@ -16575,6 +16744,14 @@
 		(pin "9"
 			(uuid "83616a1b-53cb-4bc4-bfc7-a340c75ffaa4")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -16713,6 +16890,14 @@
 		(pin "2"
 			(uuid "9d2bfb75-3655-468a-99b3-1689c86cc127")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -16780,6 +16965,14 @@
 		)
 		(pin "1"
 			(uuid "c970f863-2eeb-4363-945c-2275a112fd4c")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16922,6 +17115,14 @@
 		)
 		(pin "4"
 			(uuid "a80899eb-c281-402c-81c0-5d5b22336f45")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17173,6 +17374,14 @@
 		(pin "9"
 			(uuid "db076b15-ed3c-497e-91a0-4c967b3f7f23")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -17311,6 +17520,14 @@
 		(pin "2"
 			(uuid "4c492959-c00a-430a-b92b-afb6f355a82a")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -17379,6 +17596,14 @@
 		(pin "1"
 			(uuid "c5b352a6-6b4e-44b1-94d3-3d0f300f9efb")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -17446,6 +17671,14 @@
 		)
 		(pin "1"
 			(uuid "3ea03728-7a77-4313-bf8a-27a007c9d6a6")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17583,6 +17816,14 @@
 		(pin "2"
 			(uuid "9ab92207-1da7-4613-a632-d3972813f57b")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -17719,6 +17960,14 @@
 		(pin "2"
 			(uuid "0206e765-825a-4e51-9371-9f239143e77c")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -17787,6 +18036,14 @@
 		(pin "1"
 			(uuid "9ae7e107-47c3-4f43-acc6-d14899796c06")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -17854,6 +18111,14 @@
 		)
 		(pin "1"
 			(uuid "32f708e0-df94-44e7-a6ae-cda54a0cd338")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17993,6 +18258,14 @@
 		(pin "2"
 			(uuid "7087eb60-8768-46f6-a30a-c818144536a3")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -18131,6 +18404,14 @@
 		(pin "2"
 			(uuid "7cb4adc7-e689-43cd-a738-0ba18c62365e")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -18198,6 +18479,14 @@
 		)
 		(pin "1"
 			(uuid "74af2b77-c1c9-4eae-bff8-96bc046b8c06")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18337,6 +18626,14 @@
 		(pin "2"
 			(uuid "e45fe090-bc92-4bd8-84a2-e503098da63b")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -18475,6 +18772,14 @@
 		(pin "2"
 			(uuid "c02cb16b-594f-4980-84bc-d3a41f893fe1")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
@@ -18603,6 +18908,14 @@
 		)
 		(pin "3"
 			(uuid "4d68bfd0-600e-4f1c-a4c7-76529ae0afbb")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18764,6 +19077,14 @@
 		(pin "9"
 			(uuid "cf03ad8f-66ef-45f9-8345-2635d0d3edd5")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -18831,6 +19152,14 @@
 		)
 		(pin "1"
 			(uuid "e48c2411-8cec-4a56-a964-fc311cc46655")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18944,6 +19273,14 @@
 		)
 		(pin "1"
 			(uuid "e904e67d-687b-4696-862e-14a432e67103")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19083,6 +19420,14 @@
 		(pin "2"
 			(uuid "d6ace78d-04f5-4e4f-a59a-9296b53097d3")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -19187,6 +19532,14 @@
 		)
 		(pin "2"
 			(uuid "ae5d10fb-0c1f-487f-bf73-01918e8dbf6f")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19351,6 +19704,14 @@
 		(pin "9"
 			(uuid "1a9e2b11-80b9-435f-a9bf-a5b45e4a1043")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -19419,6 +19780,14 @@
 		(pin "1"
 			(uuid "b988d6e1-acde-48d5-aaac-780083f0a33d")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -19486,6 +19855,14 @@
 		)
 		(pin "1"
 			(uuid "2dfa347b-08b4-4ee1-b0ac-49ade4fe9171")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19648,6 +20025,14 @@
 		(pin "9"
 			(uuid "9e0599fe-97ee-4f13-a349-762a8f42c861")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
@@ -19775,6 +20160,14 @@
 		)
 		(pin "3"
 			(uuid "aa9c9fa8-922d-4661-b6ba-f949438fcd13")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19936,6 +20329,14 @@
 		(pin "9"
 			(uuid "cf0a08fc-a7e1-4e2e-b77b-d5d82ed08115")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -20003,6 +20404,14 @@
 		)
 		(pin "1"
 			(uuid "1feb75da-52bc-4f54-bc22-6a4b1520ccea")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20072,6 +20481,14 @@
 		(pin "1"
 			(uuid "5e79d815-3e66-452c-bc9d-447f9c537736")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -20139,6 +20556,14 @@
 		)
 		(pin "1"
 			(uuid "e4f43349-3f67-4924-9783-e918db4d09eb")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20278,6 +20703,14 @@
 		(pin "2"
 			(uuid "d0e758c8-d140-4a8a-8239-760094b94ecd")
 		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -20390,6 +20823,14 @@
 		)
 		(pin "1"
 			(uuid "7bd5b512-af4d-43db-aa46-0fc231d1db36")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20517,6 +20958,14 @@
 		)
 		(pin "2"
 			(uuid "167e0dc3-f820-4d48-81fb-4e2a58476c04")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R29")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20655,6 +21104,14 @@
 		)
 		(pin "2"
 			(uuid "1525535f-a14f-4148-bf1a-2c1a2802f16c")
+		)
+		(instances
+			(project "CM4_Mini_PC"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
