@@ -16,6 +16,16 @@ A custom, compact (~90 mm × 60 mm) 4-layer controlled-impedance carrier board f
 
 While standard consumer Raspberry Pi boards rely on slow MicroSD cards or shared USB 3.0 bridges, this design directly unlocks the CM4’s native single-lane **PCIe Gen 2.0 bus (5.0 Gbps)** to achieve true solid-state read/write throughput exceeding **400+ MB/s** via a dedicated onboard M.2 Key-M NVMe slot.
 
+### 🚀 Key Architectural Upgrades Over Reference CM4IO Board
+
+Unlike the official Raspberry Pi CM4IO evaluation board—which is a large benchtop development platform—this carrier board was re-engineered for a compact, consumer-ready Mini PC:
+
+* **60% Smaller Form Factor**: Shrunk from $160 \times 90\text{ mm}$ down to an ultra-compact $90 \times 60\text{ mm}$ footprint.
+* **Integrated M.2 NVMe SSD Storage**: Replaced the bulky desktop PCIe slot with an onboard, low-profile bottom-mount M.2 Key-M socket (supporting 2242 & 2280 NVMe SSDs at 400+ MB/s) with dedicated AC-coupling, 10k$\Omega$ pull-up, and active-low read/write LED.
+* **Modern USB-C Power (5V/3A)**: Replaced the 12V DC barrel jack with a standard USB-C port, featuring CC pull-downs, reverse-polarity P-FET, and a 5A synchronous buck converter (`AP64351`) to comfortably handle NVMe power surges.
+* **Compact Port Cluster**: Consolidated spread-out ports into a space-saving dual-stacked USB-A receptacle (`J13`) and single primary 4K HDMI 2.0 port.
+* **Controlled-Impedance Stackup**: Designed strictly to the JLCPCB JLC04161H 4-layer standard with calculated $100\,\Omega$ (PCIe/HDMI) and $90\,\Omega$ (USB) differential routing.
+
 ### Key Architectural Specifications
 * **Host Processor**: Raspberry Pi Compute Module 4 (Broadcom BCM2711 Quad-Core Cortex-A72 @ 1.5 GHz).
 * **High-Speed Storage**: M.2 Socket 3 (Key-M) supporting NVMe SSDs (standard 2242 & 2280 form factors) with active-low drive read/write activity LED indicator.
