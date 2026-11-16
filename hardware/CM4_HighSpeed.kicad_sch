@@ -14534,8 +14534,5 @@
 		)
 	)
 
-	(no_connect (at 41.91 26.67) (uuid "677100e7-aba4-4ccb-aaac-18b377835c7d"))
-	(no_connect (at 41.91 44.45) (uuid "6bc2cae0-2e35-495f-b058-0d39722375c4"))
-	(no_connect (at 41.91 46.99) (uuid "66fa75ff-f27c-4b83-9d49-ec8a2583ff6d"))
 	(no_connect (at 102.87 26.67) (uuid "559cacb4-6cdf-4d02-9247-f210a8d80416"))
 )

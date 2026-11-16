@@ -1073,7 +1073,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -25.4 -38.1 0)
 				(length 2.54)
 				(name "REFCLKn"
@@ -1109,7 +1109,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -25.4 -35.56 0)
 				(length 2.54)
 				(name "REFCLKp"
@@ -2208,7 +2208,7 @@
 			)
 		)
 		(symbol "MountingHole_Pad_1_1"
-			(pin input line
+			(pin passive line
 				(at 0 -2.54 90)
 				(length 2.54)
 				(name "1"
@@ -2360,7 +2360,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 205.0 116.84 270)
+		(at 205.0 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2514,8 +2514,8 @@
 			(effects (font (size 1.27 1.27)))
 		)
 	)
-	(wire (pts (xy 70.0 34.0) (xy 70.0 37.46)) (stroke (width 0) (type default)) (uuid "e741fb0c-3c79-46da-afaa-406f693749d6"))
-	(wire (pts (xy 70.0 42.54) (xy 70.0 46.0)) (stroke (width 0) (type default)) (uuid "f1e27a4b-53e4-4fc0-9b0e-9b41e7dc1367"))
+	(wire (pts (xy 70.0 34.0) (xy 70.0 36.19)) (stroke (width 0) (type default)) (uuid "e741fb0c-3c79-46da-afaa-406f693749d6"))
+	(wire (pts (xy 70.0 43.81) (xy 70.0 46.0)) (stroke (width 0) (type default)) (uuid "f1e27a4b-53e4-4fc0-9b0e-9b41e7dc1367"))
 	(symbol
 		(lib_id "Device:C")
 		(at 80.0 40.0 0)
@@ -2574,8 +2574,8 @@
 			(effects (font (size 1.27 1.27)))
 		)
 	)
-	(wire (pts (xy 80.0 34.0) (xy 80.0 37.46)) (stroke (width 0) (type default)) (uuid "44124c36-bb62-4609-b83a-b9910533b5fe"))
-	(wire (pts (xy 80.0 42.54) (xy 80.0 46.0)) (stroke (width 0) (type default)) (uuid "47b8af42-7d21-4238-84d7-a488df25d4fd"))
+	(wire (pts (xy 80.0 34.0) (xy 80.0 36.19)) (stroke (width 0) (type default)) (uuid "44124c36-bb62-4609-b83a-b9910533b5fe"))
+	(wire (pts (xy 80.0 43.81) (xy 80.0 46.0)) (stroke (width 0) (type default)) (uuid "47b8af42-7d21-4238-84d7-a488df25d4fd"))
 	(symbol
 		(lib_id "Device:C")
 		(at 90.0 40.0 0)
@@ -2634,8 +2634,8 @@
 			(effects (font (size 1.27 1.27)))
 		)
 	)
-	(wire (pts (xy 90.0 34.0) (xy 90.0 37.46)) (stroke (width 0) (type default)) (uuid "a5b44927-f42f-4873-a2d0-bf1daa7a45ee"))
-	(wire (pts (xy 90.0 42.54) (xy 90.0 46.0)) (stroke (width 0) (type default)) (uuid "ebccf996-9ad3-4b0d-9ac6-45b033f7555c"))
+	(wire (pts (xy 90.0 34.0) (xy 90.0 36.19)) (stroke (width 0) (type default)) (uuid "a5b44927-f42f-4873-a2d0-bf1daa7a45ee"))
+	(wire (pts (xy 90.0 43.81) (xy 90.0 46.0)) (stroke (width 0) (type default)) (uuid "ebccf996-9ad3-4b0d-9ac6-45b033f7555c"))
 	(symbol
 		(lib_id "Device:C")
 		(at 100.0 40.0 0)
@@ -2694,8 +2694,8 @@
 			(effects (font (size 1.27 1.27)))
 		)
 	)
-	(wire (pts (xy 100.0 34.0) (xy 100.0 37.46)) (stroke (width 0) (type default)) (uuid "310e9a81-5042-4adf-8b2f-19612b31a83a"))
-	(wire (pts (xy 100.0 42.54) (xy 100.0 46.0)) (stroke (width 0) (type default)) (uuid "98d46a78-e4a7-4ee4-84f0-25e1a9b26ecd"))
+	(wire (pts (xy 100.0 34.0) (xy 100.0 36.19)) (stroke (width 0) (type default)) (uuid "310e9a81-5042-4adf-8b2f-19612b31a83a"))
+	(wire (pts (xy 100.0 43.81) (xy 100.0 46.0)) (stroke (width 0) (type default)) (uuid "98d46a78-e4a7-4ee4-84f0-25e1a9b26ecd"))
 	(symbol
 		(lib_id "Device:C")
 		(at 110.0 40.0 0)
@@ -2754,8 +2754,8 @@
 			(effects (font (size 1.27 1.27)))
 		)
 	)
-	(wire (pts (xy 110.0 34.0) (xy 110.0 37.46)) (stroke (width 0) (type default)) (uuid "762c0949-911a-4e8b-b9e3-94829df75e4e"))
-	(wire (pts (xy 110.0 42.54) (xy 110.0 46.0)) (stroke (width 0) (type default)) (uuid "fd6ca617-496f-4f95-bafc-07fcbde01389"))
+	(wire (pts (xy 110.0 34.0) (xy 110.0 36.19)) (stroke (width 0) (type default)) (uuid "762c0949-911a-4e8b-b9e3-94829df75e4e"))
+	(wire (pts (xy 110.0 43.81) (xy 110.0 46.0)) (stroke (width 0) (type default)) (uuid "fd6ca617-496f-4f95-bafc-07fcbde01389"))
 	(symbol
 		(lib_id "Device:C")
 		(at 120.0 40.0 0)
@@ -2814,8 +2814,8 @@
 			(effects (font (size 1.27 1.27)))
 		)
 	)
-	(wire (pts (xy 120.0 34.0) (xy 120.0 37.46)) (stroke (width 0) (type default)) (uuid "eaa13727-a4cd-4605-896d-8ad601f56831"))
-	(wire (pts (xy 120.0 42.54) (xy 120.0 46.0)) (stroke (width 0) (type default)) (uuid "2f9b4398-dbb0-453f-92e1-e7f7725f52cb"))
+	(wire (pts (xy 120.0 34.0) (xy 120.0 36.19)) (stroke (width 0) (type default)) (uuid "eaa13727-a4cd-4605-896d-8ad601f56831"))
+	(wire (pts (xy 120.0 43.81) (xy 120.0 46.0)) (stroke (width 0) (type default)) (uuid "2f9b4398-dbb0-453f-92e1-e7f7725f52cb"))
 	(symbol
 		(lib_id "power:+3.3v")
 		(at 160.02 54.0 0)
@@ -2881,14 +2881,14 @@
 	(global_label "PCIE_CLK_nREQ" (shape output) (at 75.0 66.04 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "c05af70e-87e1-422c-961c-34a1214d7505"))
 	(wire (pts (xy 75.0 66.04) (xy 134.62 66.04)) (stroke (width 0) (type default)) (uuid "8cd98a7b-9aaa-4d34-8c03-83466bd3750e"))
 	(junction (at 115.0 66.04) (diameter 1.016) (color 0 0 0 0) (uuid "3651bd96-9e21-4491-95be-597e65ea677d"))
-	(wire (pts (xy 115.0 66.04) (xy 115.0 59.54)) (stroke (width 0) (type default)) (uuid "6d070b50-243b-4e69-84c0-b8926647e3b3"))
-	(wire (pts (xy 115.0 54.46) (xy 115.0 52.0)) (stroke (width 0) (type default)) (uuid "bef0af35-070e-41d5-8fc5-bf83c17b0036"))
+	(wire (pts (xy 115.0 66.04) (xy 115.0 60.81)) (stroke (width 0) (type default)) (uuid "6d070b50-243b-4e69-84c0-b8926647e3b3"))
+	(wire (pts (xy 115.0 53.19) (xy 115.0 52.0)) (stroke (width 0) (type default)) (uuid "bef0af35-070e-41d5-8fc5-bf83c17b0036"))
 	(wire (pts (xy 185.42 116.84) (xy 201.19 116.84)) (stroke (width 0) (type default)) (uuid "14cdad31-ff90-403f-847f-fb0a4d019ac3"))
 	(wire (pts (xy 208.81 116.84) (xy 214.19 116.84)) (stroke (width 0) (type default)) (uuid "c6003873-aa18-47ce-83e5-46ca8ce23601"))
 	(wire (pts (xy 221.81 116.84) (xy 225.0 116.84)) (stroke (width 0) (type default)) (uuid "d77ef300-ed7a-4730-8fdb-6821734568e0"))
 	(wire (pts (xy 185.42 127.0) (xy 195.0 127.0)) (stroke (width 0) (type default)) (uuid "ce126ba5-cf1c-4631-bb8f-214c9b5b4813"))
 	(wire (pts (xy 195.0 127.0) (xy 195.0 129.0)) (stroke (width 0) (type default)) (uuid "2de495eb-bbdd-4cae-810e-858ad227aaff"))
-	(wire (pts (xy 240.0 106.68) (xy 240.0 114.0)) (stroke (width 0) (type default)) (uuid "c3853877-9af5-4882-8e4c-de36961250ad"))
+	(wire (pts (xy 240.0 109.22) (xy 240.0 114.0)) (stroke (width 0) (type default)) (uuid "c3853877-9af5-4882-8e4c-de36961250ad"))
 	(no_connect (at 134.62 111.76) (uuid "52cd70ad-1ea2-4ffd-a7d8-0bfca0724d4a"))
 	(no_connect (at 134.62 109.22) (uuid "e292866b-3a23-4f2d-bf06-e26716d52d9b"))
 	(no_connect (at 134.62 106.68) (uuid "5b4482f6-e422-456a-a08d-de69d4a193ab"))
