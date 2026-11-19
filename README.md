@@ -10,9 +10,22 @@
 
 A custom, compact (~90 mm × 60 mm) 4-layer controlled-impedance carrier board for the **Raspberry Pi Compute Module 4 (CM4)**. Engineered for high-performance mini-desktop computing, embedded industrial workloads, and edge IoT applications with high-speed **PCIe Gen 2.0 M.2 Key-M NVMe SSD** storage.
 
+> [!TIP]
+> **Looking for a completed PCB layout & fabrication tape-out?**  
+> Check out my [**ESP32-S3 Micromouse Robot Controller**](https://github.com/JulioxTito/ESP32_Micromouse_PCB_KICAD) — a completed 2-layer robotics control board featuring full PCB routing, 3D mechanical clearance modeling, 100% DRC pass rate, and production-ready manufacturing Gerbers (`Gerbers_Micromouse_v1.0.zip`).
+
 ---
 
 ## 📌 Project Overview
+
+### 📊 Project Status & Milestones
+| Engineering Milestone | Status | Deliverables / Verification |
+| :--- | :---: | :--- |
+| **System Architecture & Schematics** | ✅ Completed | 7 hierarchical sheets, [Complete PDF](docs/CM4_Mini_PC_Complete_Schematics.pdf) |
+| **Electrical Rules Audit (ERC)** | ✅ Completed | [0 Errors / 0 Warnings](docs/erc_report.txt) |
+| **Controlled-Impedance Stackup** | ✅ Completed | JLCPCB JLC04161H (100Ω PCIe/HDMI, 90Ω USB) |
+| **Physical PCB Layout & Length Tuning** | 🟡 In Progress | Component placement & differential pair skew matching |
+| **Fabrication Deliverables (Gerbers/BOM)** | ⏳ Queued | Production tape-out following layout DRC signoff |
 
 While standard consumer Raspberry Pi boards rely on slow MicroSD cards or shared USB 3.0 bridges, this design directly unlocks the CM4’s native single-lane **PCIe Gen 2.0 bus (5.0 Gbps)** to achieve true solid-state read/write throughput exceeding **400+ MB/s** via a dedicated onboard M.2 Key-M NVMe slot.
 
